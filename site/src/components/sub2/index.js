@@ -30,7 +30,7 @@ export default function SubTwo() {
             <Paper elevation={2} sx={{ width: '100%' }}>
                 <Grid container sx={{ m: 5 }}>
                     <Grid item sm={12} sx={{ my: 3 }}>
-                        <TuneIcon />
+                        <TuneIcon color="secondary"/>
                     </Grid>
 
                     <Typography variant="h4" >

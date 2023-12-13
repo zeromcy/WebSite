@@ -40,7 +40,12 @@ export default function Head() {
                 mb:5
             }}>
                 <Paper elevation={3} >
-                <Toolbar>
+                <Toolbar 
+                sx={{
+                    '&':{
+                        minHeight:'48px'
+                    }
+                }}>
                 </Toolbar>
                 <Divider />
                     <img src={headImage} alt="" width='60%'></img>
@@ -52,7 +57,7 @@ export default function Head() {
             sx={{
                 justifyContent:'center'
             }}>
-                <Grid item sm={2}>
+                <Grid item sm={2} sx={{mt:1}}>
                     <img src={NotionImage} alt="" width="60%"></img>
                 </Grid>
                 <Grid item sm={2} sx={{mt:2}}>

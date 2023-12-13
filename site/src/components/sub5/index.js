@@ -19,7 +19,7 @@ export default function SubFive() {
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ m: 5 }}>
                             <Grid item sm={12} sx={{ my: 3 }}>
-                                <TuneIcon />
+                                <TuneIcon color="secondary"/>
                             </Grid>
 
                             <Typography variant="h4" >
@@ -38,7 +38,7 @@ export default function SubFive() {
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                                 <Grid container sx={{ m: 2 }}>
                                     <Grid item sm={12} sx={{ my: 2 }}>
-                                        <TuneIcon />
+                                        <TuneIcon color="secondary"/>
                                     </Grid>
 
                                     <Typography variant="h4" >
@@ -54,7 +54,7 @@ export default function SubFive() {
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                                 <Grid container sx={{ m: 2 }}>
                                     <Grid item sm={12} sx={{ my: 2 }}>
-                                        <TuneIcon />
+                                        <TuneIcon color="secondary"/>
                                     </Grid>
 
                                     <Typography variant="h4" >
@@ -71,7 +71,7 @@ export default function SubFive() {
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                                 <Grid container sx={{ m: 2 }}>
                                     <Grid item sm={12} sx={{ my: 2 }}>
-                                        <TuneIcon />
+                                        <TuneIcon color="secondary"/>
                                     </Grid>
 
                                     <Typography variant="h4" >

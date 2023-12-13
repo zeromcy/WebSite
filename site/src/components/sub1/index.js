@@ -32,7 +32,7 @@ export default function SubOne() {
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ mx: 5 }}>
                             <Grid item sm={12}>
-                                <WindowIcon sx={{ my: 3 }} />
+                                <WindowIcon sx={{ my: 3 }} color="secondary"/>
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant="h6">
@@ -52,7 +52,7 @@ export default function SubOne() {
                     <Paper elevation={2} sx={{ height: '100%' }}>
                         <Grid container sx={{ mx: 5 }}>
                             <Grid item sm={12}>
-                                <LockIcon sx={{ my: 3 }} />
+                                <LockIcon sx={{ my: 3 }} color="secondary"/>
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant='h6'>
