@@ -61,7 +61,7 @@ export default function SubFour() {
                         <AutoAwesomeMosaicOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Contact info. ColColumn layout. Display content side-by-side using columns.
+                        <b>Contact info.</b> ColColumn layout. Display content side-by-side using columns.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -69,7 +69,7 @@ export default function SubFour() {
                         <CodeIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Custom CSS. Inject custom CSS to fully control your form design.
+                    <b>Contact info.</b>Custom CSS. Inject custom CSS to fully control your form design.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -77,7 +77,7 @@ export default function SubFour() {
                         <CropOriginalIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Images. Add a logo, cover image and embed visuals.
+                    <b>Contact info.</b>Images. Add a logo, cover image and embed visuals.
                     </Typography>
                 </Grid>
             </Grid>
@@ -89,7 +89,7 @@ export default function SubFour() {
                         <SmartDisplayOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Embed online content. Embed YouTube, Calendly, Maps, and more.
+                    <b>Embed online content.</b> Embed YouTube, Calendly, Maps, and more.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -97,7 +97,7 @@ export default function SubFour() {
                         <RedoOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Multi-page forms. Create a single-page or multi-page form.
+                    <b>Multi-page forms.</b> Create a single-page or multi-page form.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -105,7 +105,7 @@ export default function SubFour() {
                         <TranslateOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        40+ supported languages. Translate the default form messages for respondents worldwide.
+                    <b>0+ supported languages.</b>4 Translate the default form messages for respondents worldwide.
                     </Typography>
                 </Grid>
             </Grid>

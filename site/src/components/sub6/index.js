@@ -1,4 +1,5 @@
-import { Grid, Link, Typography } from "@mui/material"
+import MyLink from "../commom/MyLink"
+import { Grid, Typography } from "@mui/material"
 import '../../css/img.css'
 import NotionImage from '../../image/icon_NOTION.png'
 import GoogleSheetsImage from '../../image/icon_GOOGLE_SHEETS.png'
@@ -12,6 +13,7 @@ import ZapierImage from '../../image/icon_ZAPIER.png'
 import MakeImage from '../../image/icon_INTEGROMAT.png'
 import PipedreamImage from '../../image/icon_PIPEDREAM.png'
 import Sub6BackImage from '../../image/customize.png'
+import MoreIcon from "./more"
 
 export default function SubSix() {
     return (
@@ -44,7 +46,7 @@ export default function SubSix() {
                         <img src={NotionImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Notion.</Link>Send submissions to Notion.
+                        <MyLink href="#"><b>Notion.</b></MyLink>Send submissions to Notion.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -52,7 +54,7 @@ export default function SubSix() {
                         <img src={GoogleSheetsImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Google Sheets.</Link>Send submissions to a sheet.
+                        <MyLink><b>Google Sheets.</b></MyLink>Send submissions to a sheet.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -60,7 +62,7 @@ export default function SubSix() {
                         <img src={AirtableImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Airtable.</Link>Send submissions to Airtable.
+                        <MyLink><b>Airtable.</b></MyLink>Send submissions to Airtable.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -68,7 +70,7 @@ export default function SubSix() {
                         <img src={WebhooksImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Webhooks.</Link>Send submissions to Webhooks.
+                        <MyLink><b>Webhooks.</b></MyLink>Send submissions to Webhooks.
                     </Typography>
                 </Grid>
 
@@ -80,7 +82,7 @@ export default function SubSix() {
                         <img src={SlackImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Slack.</Link>Send Slack messages for new submissions.
+                        <MyLink><b>Slack.</b></MyLink>Send Slack messages for new submissions.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -88,7 +90,7 @@ export default function SubSix() {
                         <img src={CodaImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Coda.</Link>Send submissions to Coda.
+                        <MyLink><b>Coda.</b></MyLink>Send submissions to Coda.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -96,7 +98,7 @@ export default function SubSix() {
                         <img src={GoogleAnalyticsImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Google Analytics.</Link>Analyze traffic sources, visitor behavior and time spent.
+                        <MyLink><b>Google Analytics.</b></MyLink>Analyze traffic sources, visitor behavior and time spent.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -104,7 +106,7 @@ export default function SubSix() {
                         <img src={FaceImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Facebook Pixel.</Link>Measure and optimize your ad campaigns.
+                        <MyLink><b>Facebook Pixel.</b></MyLink>Measure and optimize your ad campaigns.
                     </Typography>
                 </Grid>
 
@@ -116,7 +118,7 @@ export default function SubSix() {
                         <img src={ZapierImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Zapier.</Link>Send submissions to your favorite tools.
+                        <MyLink><b>Zapier.</b></MyLink>Send submissions to your favorite tools.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -124,7 +126,7 @@ export default function SubSix() {
                         <img src={MakeImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Make.</Link>Send submissions to your favorite tools.
+                        <MyLink><b>Make.</b></MyLink>Send submissions to your favorite tools.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
@@ -132,15 +134,15 @@ export default function SubSix() {
                         <img src={PipedreamImage} alt='' width='10%'></img>
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>Pipedream.</Link>Send submissions to your favorite tools.
+                        <MyLink><b>Pipedream.</b></MyLink>Send submissions to your favorite tools.
                     </Typography>
                 </Grid>
                 <Grid item sm={3}>
                     <Typography>
-                        <img src={WebhooksImage} alt='' width='10%'></img>
+                        <MoreIcon />
                     </Typography>
                     <Typography variant="subtitle1">
-                        <Link>And many more.</Link>ntegrate with thousands of tools using Zapier, Make or Pipedream.
+                        <MyLink><b>And many more.</b></MyLink>ntegrate with thousands of tools using Zapier, Make or Pipedream.
                     </Typography>
                 </Grid>
 

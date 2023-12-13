@@ -58,7 +58,7 @@ export default function SubTwo() {
                         <AlternateEmailIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Contact info. Collect names, addresses, phone numbers, emails & links.
+                        <b>Contact info.</b> Collect names, addresses, phone numbers, emails & links.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -66,7 +66,7 @@ export default function SubTwo() {
                         <CreditCardIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Accept payments. Create checkout forms without code.
+                        <b>Accept payments.</b> Create checkout forms without code.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -74,7 +74,7 @@ export default function SubTwo() {
                         <HistoryEduIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Signatures. Accept e-signatures and streamline contract signing.
+                    <b>Signatures.</b> Accept e-signatures and streamline contract signing.
                     </Typography>
                 </Grid>
             </Grid>
@@ -86,7 +86,7 @@ export default function SubTwo() {
                         <EmojiEventsOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Rate & rank. Let users share their opinions using visually simple ratings, scales, and rankings.
+                    <b>Rate & rank. </b> Let users share their opinions using visually simple ratings, scales, and rankings.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -94,7 +94,7 @@ export default function SubTwo() {
                         <UploadFileIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        File uploads. Collect images, PDFs, video and audio files.
+                    <b>File uploads.</b> Collect images, PDFs, video and audio files.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -102,7 +102,7 @@ export default function SubTwo() {
                         <CalendarMonthIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Date & Time. Allow respondents easily select date and time.
+                    <b>Date & Time.</b> Allow respondents easily select date and time.
                     </Typography>
                 </Grid>
             </Grid>

@@ -35,7 +35,7 @@ export default function SubOne() {
                                 <KeyboardCommandKeyIcon sx={{ my: 3 }} color="secondary"/>
                             </Grid>
                             <Grid item sm={12}>
-                                <Typography variant="h6">
+                                <Typography variant="h5">
                                     Just start typing
                                 </Typography>
                             </Grid>
@@ -55,7 +55,7 @@ export default function SubOne() {
                                 <LockIcon sx={{ my: 3 }} color="secondary"/>
                             </Grid>
                             <Grid item sm={12}>
-                                <Typography variant='h6'>
+                                <Typography variant='h5'>
                                     Privacy-friendly form builder
                                 </Typography>
                             </Grid>

@@ -63,7 +63,7 @@ export default function SubThree() {
                                 <CalculatorIcon/>
                             </Grid>
                             <Grid item sm={12}>
-                                <Typography variant="h6">
+                                <Typography variant="h5">
                                     Calculator
                                 </Typography>
                             </Grid>
@@ -83,7 +83,7 @@ export default function SubThree() {
                                 <VisibilityOffIcon sx={{ my: 3 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12}>
-                                <Typography variant='h6'>
+                                <Typography variant='h5'>
                                     Hidden fields
                                 </Typography>
                             </Grid>
@@ -108,7 +108,7 @@ export default function SubThree() {
                         <AlternateEmailIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Answer piping. Mention answers from earlier questions to personalize your form.
+                        <b>Answer piping.</b> Mention answers from earlier questions to personalize your form.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -116,7 +116,7 @@ export default function SubThree() {
                         <MarkEmailReadIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Email notifications. Send tailored emails to yourself and respondents.
+                    <b>Email notifications.</b> Send tailored emails to yourself and respondents.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -124,7 +124,7 @@ export default function SubThree() {
                         <ShortcutIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Redirect on completion. Forward respondents to another web page.
+                    <b>Redirect on completion.</b> Forward respondents to another web page.
                     </Typography>
                 </Grid>
             </Grid>
@@ -136,7 +136,7 @@ export default function SubThree() {
                         <InputIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Pre-populate fields. Save time by pre-filling form fields with data you already have about respondents.
+                    <b>Pre-populate fields.</b> Save time by pre-filling form fields with data you already have about respondents.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -144,7 +144,7 @@ export default function SubThree() {
                         <SmartToyIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        reCAPTCHA. Protect your forms from spam and bots.
+                    <b>reCAPTCHA.</b> Protect your forms from spam and bots.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -152,7 +152,7 @@ export default function SubThree() {
                         <ChatBubbleOutlineIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Partial submissions. Capture unfinished form submissions.
+                    <b>Partial submissions.</b> Capture unfinished form submissions.
                     </Typography>
                 </Grid>
             </Grid>

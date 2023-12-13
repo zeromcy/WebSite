@@ -1,10 +1,11 @@
+import MyLink from '../commom/MyLink';
 import HourglassEmptyOutlinedIcon from '@mui/icons-material/HourglassEmptyOutlined';
 import GrassOutlinedIcon from '@mui/icons-material/GrassOutlined';
 import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 import ContactMailOutlinedIcon from '@mui/icons-material/ContactMailOutlined';
 import SentimentSatisfiedOutlinedIcon from '@mui/icons-material/SentimentSatisfiedOutlined';
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
-import { Grid, List, ListItem, Link, ListItemText, Paper, Typography } from "@mui/material"
+import { Grid, List, ListItem,  ListItemText, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import Sub7BackImage from '../../image/customize.png'
 
@@ -45,19 +46,19 @@ export default function SubSeven() {
                         </Typography>
                         <List>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Sell products online" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Grow your newsletter" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Receive contact form messages" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                         </List>
                     </Grid>
@@ -70,19 +71,19 @@ export default function SubSeven() {
                         </Typography>
                         <List>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Gather audience feedback" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Receive feature requests" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Conduct user research" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                         </List>
                     </Grid>
@@ -95,19 +96,19 @@ export default function SubSeven() {
                         </Typography>
                         <List>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Generate leads" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Register users" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Measure customer satisfaction" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                         </List>
                     </Grid>
@@ -122,19 +123,19 @@ export default function SubSeven() {
                         </Typography>
                         <List>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Evaluate employee engagement" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Receive job applications" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Create exit surveys" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                         </List>
                     </Grid>
@@ -147,19 +148,19 @@ export default function SubSeven() {
                         </Typography>
                         <List>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Organize team events" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Receive help desk tickets" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Collect internal suggestions" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                         </List>
                     </Grid>
@@ -172,19 +173,19 @@ export default function SubSeven() {
                         </Typography>
                         <List>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Create an online quiz" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Send an RSVP form" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                             <ListItem disablePadding>
-                                <Link>
+                                <MyLink>
                                     <ListItemText primary="Organize a volunteer signup" />
-                                </Link>
+                                </MyLink>
                             </ListItem>
                         </List>
                     </Grid>
