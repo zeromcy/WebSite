@@ -8,17 +8,34 @@ import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
 import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
+import Sub4BackImage from '../../image/customize.png'
 
 export default function SubFour() {
     return (
         <>
+            <Grid container spacing={3}>
+                <Grid item sm={7}>
+                    <Typography variant='h3' sx={{ mt: 15 }}>
+                        Make forms uniquely yours
+                    </Typography>
+                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                        Easily customize the design and layout to fit any form to your brand.
+                    </Typography>
+                </Grid>
 
-            <Typography variant='h3' sx={{ mt: 15 }}>
-                Make forms uniquely yours
-            </Typography>
-            <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
-                Easily customize the design and layout to fit any form to your brand.
-            </Typography>
+                <Grid item sm={5}
+                    sx={{
+                        position: 'relative',
+                        top: 55,
+                        right: -70
+                    }}
+                >
+                    <img src={Sub4BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                    </img>
+                </Grid>
+
+            </Grid>
+
 
 
             <Paper elevation={2} sx={{ width: '100%' }}>

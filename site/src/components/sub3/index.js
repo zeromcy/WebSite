@@ -3,7 +3,6 @@ import SmartToyIcon from '@mui/icons-material/SmartToy';
 import InputIcon from '@mui/icons-material/Input';
 import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
 import ShortcutIcon from '@mui/icons-material/Shortcut';
-import WindowIcon from '@mui/icons-material/Window';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import Sub1Image from '../../image/smart-3.png'
 import Encryption from '../../image/encryption.png'
@@ -13,6 +12,7 @@ import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
 import LogicIcon from './logic';
 import CalculatorIcon from './calculator';
+import Sub3BackImage from '../../image/smart.png'
 
 export default function SubThree() {
     return (
@@ -26,7 +26,16 @@ export default function SubThree() {
                         Our smart features make it easy to turn your forms into a tailored experience for every respondent.
                     </Typography>
                 </Grid>
-
+                <Grid item sm={6}
+                    sx={{
+                        position: 'relative',
+                        top: 55,
+                        right: -160
+                    }}
+                >
+                    <img src={Sub3BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                    </img>
+                </Grid>
 
             </Grid>
 

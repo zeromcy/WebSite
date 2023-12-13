@@ -5,18 +5,34 @@ import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlin
 import { Grid, Paper, Typography, Button } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
+import Sub5BackImage from '../../image/customize.png'
 
 
 export default function SubFive() {
     return (
         <>
+            <Grid container spacing={3}>
+                <Grid item sm={7}>
+                    <Typography variant='h3' sx={{ mt: 15 }}>
+                        Share with your audience
+                    </Typography>
+                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                        Tailor how you share and display forms to connect with your audience across platforms.
+                    </Typography>
+                </Grid>
 
-            <Typography variant='h3' sx={{ mt: 15 }}>
-                Share with your audience
-            </Typography>
-            <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
-                Tailor how you share and display forms to connect with your audience across platforms.
-            </Typography>
+                <Grid item sm={5}
+                    sx={{
+                        position: 'relative',
+                        top: 55,
+                        right: -70
+                    }}
+                >
+                    <img src={Sub5BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                    </img>
+                </Grid>
+            </Grid>
+
 
             <Grid container spacing={3}>
                 <Grid item sm={7}>
@@ -52,7 +68,7 @@ export default function SubFive() {
                                         Create an eye-catching popup form for your website in seconds.
                                     </Typography>
                                 </Grid>
-                                <Button variant="contained" sx={{ width: '90%',m:2 }}>Click me</Button>
+                                <Button variant="contained" sx={{ width: '90%', m: 2 }}>Click me</Button>
                             </Paper>
                         </Grid>
                         <Grid item sm={12} sx={{ my: 3 }}>
@@ -70,7 +86,7 @@ export default function SubFive() {
                                         Share your unique Tally form link with anyone.
                                     </Typography>
                                 </Grid>
-                                <Button variant="contained" sx={{ width: '90%',m:2 }}>Click me</Button>
+                                <Button variant="contained" sx={{ width: '90%', m: 2 }}>Click me</Button>
                             </Paper>
                         </Grid>
                         <Grid item sm={12} sx={{ my: 3 }}>
@@ -87,7 +103,7 @@ export default function SubFive() {
                                         Host forms on your own (sub)domain to create branded form links.
                                     </Typography>
                                 </Grid>
-                                <Button variant="contained" sx={{ width: '90%',m:2 }}>Click me</Button>
+                                <Button variant="contained" sx={{ width: '90%', m: 2 }}>Click me</Button>
                             </Paper>
                         </Grid>
                     </Grid>

@@ -11,17 +11,31 @@ import FaceImage from '../../image/icon_FACEBOOK_PIXEL.png'
 import ZapierImage from '../../image/icon_ZAPIER.png'
 import MakeImage from '../../image/icon_INTEGROMAT.png'
 import PipedreamImage from '../../image/icon_PIPEDREAM.png'
+import Sub6BackImage from '../../image/customize.png'
 
 export default function SubSix() {
     return (
         <>
-
-            <Typography variant='h3' sx={{ mt: 15 }}>
-                Connect your favorite tools
-            </Typography>
-            <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
-                Save time using popular integrations to sync your form submissions.
-            </Typography>
+            <Grid container spacing={3}>
+                <Grid item sm={7}>
+                    <Typography variant='h3' sx={{ mt: 15 }}>
+                        Connect your favorite tools
+                    </Typography>
+                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                        Save time using popular integrations to sync your form submissions.
+                    </Typography>
+                </Grid>
+                <Grid item sm={5}
+                    sx={{
+                        position: 'relative',
+                        top: 55,
+                        right: -70
+                    }}
+                >
+                    <img src={Sub6BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                    </img>
+                </Grid>
+            </Grid>
 
             <Grid container spacing={3} sx={{ mt: 5 }} rowSpacing={3}>
 

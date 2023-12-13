@@ -8,6 +8,8 @@ import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
 import BuildIcon from './build';
+import Sub2BackImage from '../../image/click-plus.png'
+
 
 export default function SubTwo() {
     return (
@@ -22,9 +24,16 @@ export default function SubTwo() {
                     </Typography>
                 </Grid>
 
-                {/* <Grid item sm={6}>
-                    <img src={ClickPlusImage} alt='' width="320" height='237' sx={{color:'transparent'}}></img>
-                </Grid> */}
+                <Grid item sm={6}
+                    sx={{
+                        position: 'relative',
+                        top: 55,
+                        right: -250
+                    }}
+                >
+                    <img src={Sub2BackImage} alt='' width="320" height='237' sx={{ color: 'transparent', }}>
+                    </img>
+                </Grid>
             </Grid>
 
             <Paper elevation={2} sx={{ width: '100%' }}>

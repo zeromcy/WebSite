@@ -6,18 +6,33 @@ import SentimentSatisfiedOutlinedIcon from '@mui/icons-material/SentimentSatisfi
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
 import { Grid, List, ListItem, Link, ListItemText, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
+import Sub7BackImage from '../../image/customize.png'
 
 
 export default function SubSeven() {
     return (
         <>
+            <Grid container spacing={3}>
+                <Grid item sm={7}>
+                    <Typography variant='h3' sx={{ mt: 15 }}>
+                        Designed for you
+                    </Typography>
+                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                        Start from scratch or explore templates created by our community.
+                    </Typography>
+                </Grid>
 
-            <Typography variant='h3' sx={{ mt: 15 }}>
-                Designed for you
-            </Typography>
-            <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
-                Start from scratch or explore templates created by our community.
-            </Typography>
+                <Grid item sm={5}
+                    sx={{
+                        position: 'relative',
+                        top: 40,
+                        right: -70
+                    }}
+                >
+                    <img src={Sub7BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                    </img>
+                </Grid>
+            </Grid>
 
             <Paper sx={{ height: '100%' }} elevation={3}>
                 <Grid container sx={{ my: 3, mx: 10 }}>
