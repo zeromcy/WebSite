@@ -61,7 +61,7 @@ export default function SubFour() {
                         <AutoAwesomeMosaicOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        <b>Contact info.</b> ColColumn layout. Display content side-by-side using columns.
+                        <b>Column layout.</b> Display content side-by-side using columns.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -69,7 +69,7 @@ export default function SubFour() {
                         <CodeIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Contact info.</b>Custom CSS. Inject custom CSS to fully control your form design.
+                    <b>Custom CSS.</b> Inject custom CSS to fully control your form design.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -105,7 +105,7 @@ export default function SubFour() {
                         <TranslateOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>0+ supported languages.</b>4 Translate the default form messages for respondents worldwide.
+                    <b>40+ supported languages.</b> Translate the default form messages for respondents worldwide.
                     </Typography>
                 </Grid>
             </Grid>
