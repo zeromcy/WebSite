@@ -1,4 +1,5 @@
-import { Typography, Grid, Button, Paper, Divider, Toolbar } from "@mui/material";
+import StyledButton from "../commom/MyButton"
+import { Typography, Grid,  Paper, Divider, Toolbar } from "@mui/material";
 import headImage from '../../image/smart-1.png'
 import NotionImage from '../../image/notion.png'
 import BuyImage from '../../image/buy-me-a-coffee.png'
@@ -32,7 +33,7 @@ export default function Head() {
                     justifyContent: 'center',
                     my: 10
                 }}>
-                <Button variant="contained" className="btn">Create free from</Button>
+                <StyledButton variant="contained" className="btn">Create free form</StyledButton>
             </Grid>
 
             <Grid container sx={{

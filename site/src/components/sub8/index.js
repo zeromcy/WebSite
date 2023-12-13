@@ -1,5 +1,7 @@
-import { Typography, Button } from "@mui/material";
+import { Typography } from "@mui/material";
+import StyledButton from "../commom/MyButton"
 import Sub8Image from '../../image/roll-up-sleeves.png'
+import '../../css/btn.css'
 
 export default function SubEight() {
 
@@ -16,7 +18,7 @@ export default function SubEight() {
             </Typography>
 
             <Typography align='center' sx={{ mt: 5 }}>
-                <Button variant="contained">Create a free form</Button>
+                <StyledButton className='btn' variant="contained">Create a free form</StyledButton>
             </Typography>
 
 
