@@ -7,7 +7,7 @@ import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaic
 import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
-import TuneIcon from '@mui/icons-material/Tune';
+import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
 
 export default function SubFour() {
     return (
@@ -24,7 +24,7 @@ export default function SubFour() {
             <Paper elevation={2} sx={{ width: '100%' }}>
                 <Grid container sx={{ m: 5 }}>
                     <Grid item sm={12} sx={{ my: 3 }}>
-                        <TuneIcon color="secondary" />
+                        <ColorLensOutlinedIcon color="secondary" />
                     </Grid>
                     <Grid item sm={12}>
                         <Typography variant="h4" >

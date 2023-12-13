@@ -11,7 +11,8 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
-import TuneIcon from '@mui/icons-material/Tune';
+import LogicIcon from './logic';
+import CalculatorIcon from './calculator';
 
 export default function SubThree() {
     return (
@@ -32,7 +33,7 @@ export default function SubThree() {
             <Paper elevation={2} sx={{ width: '100%' }}>
                 <Grid container sx={{ m: 5 }}>
                     <Grid item sm={12} sx={{ my: 3 }}>
-                        <TuneIcon color="secondary" />
+                        <LogicIcon />
                     </Grid>
 
                     <Typography variant="h4" >
@@ -50,7 +51,7 @@ export default function SubThree() {
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ mx: 5 }}>
                             <Grid item sm={12}>
-                                <WindowIcon sx={{ my: 3 }} color="secondary" />
+                                <CalculatorIcon/>
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant="h6">

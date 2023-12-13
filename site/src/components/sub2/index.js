@@ -7,7 +7,7 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
-import TuneIcon from '@mui/icons-material/Tune';
+import BuildIcon from './build';
 
 export default function SubTwo() {
     return (
@@ -30,7 +30,7 @@ export default function SubTwo() {
             <Paper elevation={2} sx={{ width: '100%' }}>
                 <Grid container sx={{ m: 5 }}>
                     <Grid item sm={12} sx={{ my: 3 }}>
-                        <TuneIcon color="secondary"/>
+                        <BuildIcon />
                     </Grid>
 
                     <Typography variant="h4" >
@@ -46,7 +46,7 @@ export default function SubTwo() {
             <Grid container spacing={3} sx={{ mt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
-                        <AlternateEmailIcon color="secondary"/>
+                        <AlternateEmailIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
                         Contact info. Collect names, addresses, phone numbers, emails & links.
@@ -54,7 +54,7 @@ export default function SubTwo() {
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <CreditCardIcon color="secondary"/>
+                        <CreditCardIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
                         Accept payments. Create checkout forms without code.
@@ -62,7 +62,7 @@ export default function SubTwo() {
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <HistoryEduIcon color="secondary"/>
+                        <HistoryEduIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
                         Signatures. Accept e-signatures and streamline contract signing.
@@ -74,7 +74,7 @@ export default function SubTwo() {
             <Grid container spacing={3} sx={{ mt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
-                        <EmojiEventsOutlinedIcon color="secondary"/>
+                        <EmojiEventsOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
                         Rate & rank. Let users share their opinions using visually simple ratings, scales, and rankings.
@@ -82,7 +82,7 @@ export default function SubTwo() {
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <UploadFileIcon color="secondary"/>
+                        <UploadFileIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
                         File uploads. Collect images, PDFs, video and audio files.
@@ -90,7 +90,7 @@ export default function SubTwo() {
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <CalendarMonthIcon color="secondary"/>
+                        <CalendarMonthIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
                         Date & Time. Allow respondents easily select date and time.
