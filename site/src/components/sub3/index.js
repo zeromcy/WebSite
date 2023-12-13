@@ -1,13 +1,13 @@
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
+import InputIcon from '@mui/icons-material/Input';
+import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
+import ShortcutIcon from '@mui/icons-material/Shortcut';
 import WindowIcon from '@mui/icons-material/Window';
-import LockIcon from '@mui/icons-material/Lock';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import Sub1Image from '../../image/smart-3.png'
 import Encryption from '../../image/encryption.png'
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import CreditCardIcon from '@mui/icons-material/CreditCard';
-import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
-import StarOutlineIcon from '@mui/icons-material/StarOutline';
-import UploadFileIcon from '@mui/icons-material/UploadFile';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
@@ -32,7 +32,7 @@ export default function SubThree() {
             <Paper elevation={2} sx={{ width: '100%' }}>
                 <Grid container sx={{ m: 5 }}>
                     <Grid item sm={12} sx={{ my: 3 }}>
-                        <TuneIcon color="secondary"/>
+                        <TuneIcon color="secondary" />
                     </Grid>
 
                     <Typography variant="h4" >
@@ -50,16 +50,16 @@ export default function SubThree() {
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ mx: 5 }}>
                             <Grid item sm={12}>
-                                <WindowIcon sx={{ my: 3 }} color="secondary"/>
+                                <WindowIcon sx={{ my: 3 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant="h6">
-                                    Just start typing
+                                    Calculator
                                 </Typography>
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant="subtitle1" sx={{ width: '400px' }}>
-                                    Tally is a new type of online form builder that works like a text document. Just start typing on the page and insert blocks same as Notion.
+                                    Use variables to create dynamic content and calculate values, scores, prices and more.
                                 </Typography>
                             </Grid>
                         </Grid>
@@ -70,16 +70,16 @@ export default function SubThree() {
                     <Paper elevation={2} sx={{ height: '100%' }}>
                         <Grid container sx={{ mx: 5 }}>
                             <Grid item sm={12}>
-                                <LockIcon sx={{ my: 3 }} color="secondary"/>
+                                <VisibilityOffIcon sx={{ my: 3 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant='h6'>
-                                    Privacy-friendly form builder
+                                    Hidden fields
                                 </Typography>
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant='subtitle1' sx={{ width: '400px' }}>
-                                    Your data privacy and security are our top priorities. We are GDPR compliant and treat your data with care and confidentiality.
+                                    Pass data to your form with URL parameters. Include UTM parameters or personal data for a customized experience.
                                 </Typography>
                             </Grid>
                             <Grid item sm={12} sx={{ mt: 2 }}>
@@ -98,23 +98,23 @@ export default function SubThree() {
                         <AlternateEmailIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Contact info. Collect names, addresses, phone numbers, emails & links.
+                        Answer piping. Mention answers from earlier questions to personalize your form.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <CreditCardIcon color="secondary" />
+                        <MarkEmailReadIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Accept payments. Create checkout forms without code.
+                        Email notifications. Send tailored emails to yourself and respondents.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <HistoryEduIcon color="secondary" />
+                        <ShortcutIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Signatures. Accept e-signatures and streamline contract signing.
+                        Redirect on completion. Forward respondents to another web page.
                     </Typography>
                 </Grid>
             </Grid>
@@ -123,26 +123,26 @@ export default function SubThree() {
             <Grid container spacing={3} sx={{ mt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
-                        <StarOutlineIcon color="secondary" />
+                        <InputIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Rate & rank. Let users share their opinions using visually simple ratings, scales, and rankings.
+                        Pre-populate fields. Save time by pre-filling form fields with data you already have about respondents.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <UploadFileIcon color="secondary" />
+                        <SmartToyIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        File uploads. Collect images, PDFs, video and audio files.
+                        reCAPTCHA. Protect your forms from spam and bots.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <CalendarMonthIcon color="secondary" />
+                        <ChatBubbleOutlineIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Date & Time. Allow respondents easily select date and time.
+                        Partial submissions. Capture unfinished form submissions.
                     </Typography>
                 </Grid>
             </Grid>

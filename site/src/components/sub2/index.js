@@ -1,7 +1,7 @@
+import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
-import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { Grid, Paper, Typography } from "@mui/material"
@@ -74,7 +74,7 @@ export default function SubTwo() {
             <Grid container spacing={3} sx={{ mt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
-                        <StarOutlineIcon color="secondary"/>
+                        <EmojiEventsOutlinedIcon color="secondary"/>
                     </Typography>
                     <Typography variant="subtitle1">
                         Rate & rank. Let users share their opinions using visually simple ratings, scales, and rankings.

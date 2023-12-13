@@ -1,7 +1,7 @@
 import { Grid, Paper, Typography } from "@mui/material"
 import DiveImage from '../../image/dive-in.png'
 import '../../css/img.css'
-import WindowIcon from '@mui/icons-material/Window';
+import KeyboardCommandKeyIcon from '@mui/icons-material/KeyboardCommandKey';
 import LockIcon from '@mui/icons-material/Lock';
 import Sub1Image from '../../image/smart-3.png'
 import Encryption from '../../image/encryption.png'
@@ -32,7 +32,7 @@ export default function SubOne() {
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ mx: 5 }}>
                             <Grid item sm={12}>
-                                <WindowIcon sx={{ my: 3 }} color="secondary"/>
+                                <KeyboardCommandKeyIcon sx={{ my: 3 }} color="secondary"/>
                             </Grid>
                             <Grid item sm={12}>
                                 <Typography variant="h6">

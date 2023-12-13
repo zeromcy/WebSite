@@ -1,7 +1,11 @@
-import { Grid, Paper, Typography } from "@mui/material"
+import BrandingWatermarkOutlinedIcon from '@mui/icons-material/BrandingWatermarkOutlined';
+import AttachFileOutlinedIcon from '@mui/icons-material/AttachFileOutlined';
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
+import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined';
+import { Grid, Paper, Typography, Button } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
-import TuneIcon from '@mui/icons-material/Tune';
+
 
 export default function SubFive() {
     return (
@@ -19,7 +23,7 @@ export default function SubFive() {
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ m: 5 }}>
                             <Grid item sm={12} sx={{ my: 3 }}>
-                                <TuneIcon color="secondary"/>
+                                <SpaceDashboardOutlinedIcon color="secondary" />
                             </Grid>
 
                             <Typography variant="h4" >
@@ -33,12 +37,12 @@ export default function SubFive() {
                     </Paper>
                 </Grid>
                 <Grid item sm={5}>
-                    <Grid container  sx={{ my: 3}} >
-                        <Grid item sm={12} sx={{mb:3}}>
+                    <Grid container sx={{ my: 3 }} >
+                        <Grid item sm={12} sx={{ mb: 3 }}>
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                                 <Grid container sx={{ m: 2 }}>
                                     <Grid item sm={12} sx={{ my: 2 }}>
-                                        <TuneIcon color="secondary"/>
+                                        <BrandingWatermarkOutlinedIcon color="secondary" />
                                     </Grid>
 
                                     <Typography variant="h4" >
@@ -48,13 +52,14 @@ export default function SubFive() {
                                         Create an eye-catching popup form for your website in seconds.
                                     </Typography>
                                 </Grid>
+                                <Button variant="contained" sx={{ width: '90%',m:2 }}>Click me</Button>
                             </Paper>
                         </Grid>
-                        <Grid item sm={12} sx={{my:3}}>
+                        <Grid item sm={12} sx={{ my: 3 }}>
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                                 <Grid container sx={{ m: 2 }}>
                                     <Grid item sm={12} sx={{ my: 2 }}>
-                                        <TuneIcon color="secondary"/>
+                                        <AttachFileOutlinedIcon color="secondary" />
                                     </Grid>
 
                                     <Typography variant="h4" >
@@ -65,13 +70,14 @@ export default function SubFive() {
                                         Share your unique Tally form link with anyone.
                                     </Typography>
                                 </Grid>
+                                <Button variant="contained" sx={{ width: '90%',m:2 }}>Click me</Button>
                             </Paper>
                         </Grid>
-                        <Grid item sm={12} sx={{my:3}}>
+                        <Grid item sm={12} sx={{ my: 3 }}>
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                                 <Grid container sx={{ m: 2 }}>
                                     <Grid item sm={12} sx={{ my: 2 }}>
-                                        <TuneIcon color="secondary"/>
+                                        <LanguageOutlinedIcon color="secondary" />
                                     </Grid>
 
                                     <Typography variant="h4" >
@@ -81,6 +87,7 @@ export default function SubFive() {
                                         Host forms on your own (sub)domain to create branded form links.
                                     </Typography>
                                 </Grid>
+                                <Button variant="contained" sx={{ width: '90%',m:2 }}>Click me</Button>
                             </Paper>
                         </Grid>
                     </Grid>

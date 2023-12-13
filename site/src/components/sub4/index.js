@@ -1,9 +1,9 @@
-import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import CreditCardIcon from '@mui/icons-material/CreditCard';
-import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
-import StarOutlineIcon from '@mui/icons-material/StarOutline';
-import UploadFileIcon from '@mui/icons-material/UploadFile';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import TranslateOutlinedIcon from '@mui/icons-material/TranslateOutlined';
+import RedoOutlinedIcon from '@mui/icons-material/RedoOutlined';
+import SmartDisplayOutlinedIcon from '@mui/icons-material/SmartDisplayOutlined';
+import CropOriginalIcon from '@mui/icons-material/CropOriginal';
+import CodeIcon from '@mui/icons-material/Code';
+import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
 import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
@@ -24,7 +24,7 @@ export default function SubFour() {
             <Paper elevation={2} sx={{ width: '100%' }}>
                 <Grid container sx={{ m: 5 }}>
                     <Grid item sm={12} sx={{ my: 3 }}>
-                        <TuneIcon color="secondary"/>
+                        <TuneIcon color="secondary" />
                     </Grid>
                     <Grid item sm={12}>
                         <Typography variant="h4" >
@@ -41,26 +41,26 @@ export default function SubFour() {
             <Grid container spacing={3} sx={{ mt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
-                        <AlternateEmailIcon color="secondary" />
+                        <AutoAwesomeMosaicOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Contact info. Collect names, addresses, phone numbers, emails & links.
+                        Contact info. ColColumn layout. Display content side-by-side using columns.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <CreditCardIcon color="secondary" />
+                        <CodeIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Accept payments. Create checkout forms without code.
+                        Custom CSS. Inject custom CSS to fully control your form design.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <HistoryEduIcon color="secondary" />
+                        <CropOriginalIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Signatures. Accept e-signatures and streamline contract signing.
+                        Images. Add a logo, cover image and embed visuals.
                     </Typography>
                 </Grid>
             </Grid>
@@ -69,26 +69,26 @@ export default function SubFour() {
             <Grid container spacing={3} sx={{ mt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
-                        <StarOutlineIcon color="secondary" />
+                        <SmartDisplayOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Rate & rank. Let users share their opinions using visually simple ratings, scales, and rankings.
+                        Embed online content. Embed YouTube, Calendly, Maps, and more.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <UploadFileIcon color="secondary" />
+                        <RedoOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        File uploads. Collect images, PDFs, video and audio files.
+                        Multi-page forms. Create a single-page or multi-page form.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
                     <Typography>
-                        <CalendarMonthIcon color="secondary" />
+                        <TranslateOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                        Date & Time. Allow respondents easily select date and time.
+                        40+ supported languages. Translate the default form messages for respondents worldwide.
                     </Typography>
                 </Grid>
             </Grid>

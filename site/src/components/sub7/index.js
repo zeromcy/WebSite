@@ -1,6 +1,12 @@
+import HourglassEmptyOutlinedIcon from '@mui/icons-material/HourglassEmptyOutlined';
+import GrassOutlinedIcon from '@mui/icons-material/GrassOutlined';
+import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
+import ContactMailOutlinedIcon from '@mui/icons-material/ContactMailOutlined';
+import SentimentSatisfiedOutlinedIcon from '@mui/icons-material/SentimentSatisfiedOutlined';
+import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
 import { Grid, List, ListItem, Link, ListItemText, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
-import TuneIcon from '@mui/icons-material/Tune';
+
 
 export default function SubSeven() {
     return (
@@ -17,7 +23,7 @@ export default function SubSeven() {
                 <Grid container sx={{ my: 3, mx: 10 }}>
                     <Grid item sm={4}>
                         <Typography>
-                            <TuneIcon sx={{ mt: 2 }} color='secondary' />
+                            <GrassOutlinedIcon sx={{ mt: 2 }} color='secondary' />
                         </Typography>
                         <Typography variant='h6' sx={{ width: '480px', }}>
                             Creators
@@ -42,7 +48,7 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <TuneIcon sx={{ mt: 2 }} color='secondary' />
+                            <HourglassEmptyOutlinedIcon sx={{ mt: 2 }} color='secondary' />
                         </Typography>
                         <Typography variant='h6' sx={{ width: '480px', }}>
                             Product
@@ -67,7 +73,7 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <TuneIcon sx={{ mt: 2 }} color='secondary' />
+                            <AutoAwesomeOutlinedIcon sx={{ mt: 2 }} color='secondary' />
                         </Typography>
                         <Typography variant='h6' sx={{ width: '480px', }}>
                             Marketing
@@ -94,7 +100,7 @@ export default function SubSeven() {
                 <Grid container sx={{ my: 3, mx: 10 }}>
                     <Grid item sm={4}>
                         <Typography>
-                            <TuneIcon sx={{ mt: 2 }} color='secondary' />
+                            <ContactMailOutlinedIcon sx={{ mt: 2 }} color='secondary' />
                         </Typography>
                         <Typography variant='h6' sx={{ width: '480px', }}>
                             HR
@@ -119,7 +125,7 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <TuneIcon sx={{ mt: 2 }} color='secondary' />
+                            <ApartmentOutlinedIcon sx={{ mt: 2 }} color='secondary' />
                         </Typography>
                         <Typography variant='h6' sx={{ width: '480px', }}>
                             Office
@@ -144,7 +150,7 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <TuneIcon sx={{ mt: 2 }} color='secondary' />
+                            <SentimentSatisfiedOutlinedIcon sx={{ mt: 2 }} color='secondary' />
                         </Typography>
                         <Typography variant='h6' sx={{ width: '480px', }}>
                             Personal
