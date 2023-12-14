@@ -9,29 +9,41 @@ import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
 import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
 import Sub4BackImage from '../../image/customize.png'
+import { useMediaQuery, useTheme } from '@mui/material';
 
 export default function SubFour() {
+    const theme = useTheme();
+    const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={7}>
-                    <Typography variant='h3' sx={{ mt: 15 }}>
+                <Grid item sm={6} xs={6}>
+                    <Typography variant='h3' sx={{ pt: 15 }}>
                         Make forms uniquely yours
                     </Typography>
-                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                    <Typography variant='h6' sx={{ pt: 2 }}>
                         Easily customize the design and layout to fit any form to your brand.
                     </Typography>
                 </Grid>
 
-                <Grid item sm={5}
+                <Grid item sm={6} xs={6}
                     sx={{
-                        position: 'relative',
-                        top: 55,
-                        right: -70
+                        alignSelf: 'end'
                     }}
                 >
-                    <img src={Sub4BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
-                    </img>
+                    <Grid container
+                        sx={{
+                            justifyContent: 'flex-end'
+                        }}>
+                        {
+                            match ?
+                                <img src={Sub4BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                                </img>
+                                :
+                                <img src={Sub4BackImage} alt='' width="200" height='116' sx={{ color: 'transparent', }}>
+                                </img>
+                        }
+                    </Grid>
                 </Grid>
 
             </Grid>
@@ -69,7 +81,7 @@ export default function SubFour() {
                         <CodeIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Custom CSS.</b> Inject custom CSS to fully control your form design.
+                        <b>Custom CSS.</b> Inject custom CSS to fully control your form design.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -77,7 +89,7 @@ export default function SubFour() {
                         <CropOriginalIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Contact info.</b>Images. Add a logo, cover image and embed visuals.
+                        <b>Contact info.</b>Images. Add a logo, cover image and embed visuals.
                     </Typography>
                 </Grid>
             </Grid>
@@ -89,7 +101,7 @@ export default function SubFour() {
                         <SmartDisplayOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Embed online content.</b> Embed YouTube, Calendly, Maps, and more.
+                        <b>Embed online content.</b> Embed YouTube, Calendly, Maps, and more.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -97,7 +109,7 @@ export default function SubFour() {
                         <RedoOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Multi-page forms.</b> Create a single-page or multi-page form.
+                        <b>Multi-page forms.</b> Create a single-page or multi-page form.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -105,7 +117,7 @@ export default function SubFour() {
                         <TranslateOutlinedIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>40+ supported languages.</b> Translate the default form messages for respondents worldwide.
+                        <b>40+ supported languages.</b> Translate the default form messages for respondents worldwide.
                     </Typography>
                 </Grid>
             </Grid>
