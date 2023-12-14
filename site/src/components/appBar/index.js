@@ -13,15 +13,16 @@ export default function AppBar() {
                     my: 2
                 }}
             >
-                <Grid item sm={6} xs={6} sx={{ pl: 2 }}>
+                <Grid item sm={3} xs={3} sx={{ pl: 2 }}>
                     <img src={LogoIcon} alt='' width="70" height='28'></img>
                 </Grid>
-                <Grid item sm={6} xs={6}>
+                <Grid item sm={9} xs={9}>
                     <Grid container
                         sx={{
                             justifyContent: 'flex-end',
                             pr:2
                         }}>
+
                         <StyledButton variant="text" className="btn">Pricing</StyledButton>
                         <StyledButton variant="text" className="btn">Log in</StyledButton>
                         <StyledButton variant="text" className="btn">Sign up</StyledButton>
