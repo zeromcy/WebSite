@@ -13,62 +13,76 @@ import InputImage from '../../image/input-badges.png'
 import LogicIcon from './logic';
 import CalculatorIcon from './calculator';
 import Sub3BackImage from '../../image/smart.png'
+import { useMediaQuery, useTheme } from '@mui/material';
 
 export default function SubThree() {
+    const theme = useTheme();
+    const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={6}>
-                    <Typography variant='h3' sx={{ mt: 15 }}>
+                <Grid item sm={6} xs={6}>
+                    <Typography variant='h3' sx={{ pt: 15 }}>
                         Craft intelligent forms
                     </Typography>
-                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                    <Typography variant='h6' sx={{ pt: 2 }}>
                         Our smart features make it easy to turn your forms into a tailored experience for every respondent.
                     </Typography>
                 </Grid>
-                <Grid item sm={6}
+                <Grid item sm={6} xs={6}
                     sx={{
-                        position: 'relative',
-                        top: 55,
-                        right: -160
+                        alignSelf: 'end'
                     }}
                 >
-                    <img src={Sub3BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
-                    </img>
+                    <Grid container
+                        sx={{
+                            justifyContent: 'flex-end'
+                        }}>
+
+                        {
+                            match ?
+                                <img src={Sub3BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                                </img>
+                                :
+                                <img src={Sub3BackImage} alt='' width="160" height='97' sx={{ color: 'transparent', }}>
+                                </img>
+                        }
+                    </Grid>
+
                 </Grid>
 
             </Grid>
 
             <Paper elevation={2} sx={{ width: '100%' }}>
-                <Grid container sx={{ m: 5 }}>
-                    <Grid item sm={12} sx={{ my: 3 }}>
+                <Grid container sx={{ p: 5 }}>
+                    <Grid item sm={12} xs={12} sx={{ py: 3 }}>
                         <LogicIcon />
                     </Grid>
 
                     <Typography variant="h4" >
                         Craft intelligent formsConditional logic
                     </Typography>
-                    <Typography variant="h6" sx={{ mt: 2, width: '780px' }}>
+                    <Typography variant="h6" sx={{ pt: 2 }}>
                         Build dynamic forms that adapt based on prior inputs or external data. Show and hide blocks, insert branching, or calculate values to create a personalized form experience.
                     </Typography>
                 </Grid>
                 <img src={InputImage} alt="" width="100%" height='300'></img>
             </Paper>
 
-            <Grid container spacing={3} sx={{ mt: 2 }}>
+            <Grid container spacing={3} sx={{ pt: 2 }}>
                 <Grid item sm={6}>
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
-                        <Grid container sx={{ mx: 5 }}>
-                            <Grid item sm={12}>
-                                <CalculatorIcon/>
+                        <Grid container sx={{ px: 5 }}>
+                            <Grid item sm={12} xs={12}>
+                                <CalculatorIcon />
                             </Grid>
-                            <Grid item sm={12}>
+                            <Grid item sm={12} xs={12}>
                                 <Typography variant="h5">
                                     Calculator
                                 </Typography>
                             </Grid>
-                            <Grid item sm={12}>
-                                <Typography variant="subtitle1" sx={{ width: '400px' }}>
+                            <Grid item sm={12} xs={12}>
+                                <Typography variant="subtitle1" >
                                     Use variables to create dynamic content and calculate values, scores, prices and more.
                                 </Typography>
                             </Grid>
@@ -78,22 +92,22 @@ export default function SubThree() {
                 </Grid>
                 <Grid item sm={6}>
                     <Paper elevation={2} sx={{ height: '100%' }}>
-                        <Grid container sx={{ mx: 5 }}>
-                            <Grid item sm={12}>
-                                <VisibilityOffIcon sx={{ my: 3 }} color="secondary" />
+                        <Grid container sx={{ px: 5 }}>
+                            <Grid item sm={12} xs={12}>
+                                <VisibilityOffIcon sx={{ py: 3 }} color="secondary" />
                             </Grid>
-                            <Grid item sm={12}>
+                            <Grid item sm={12} xs={12}>
                                 <Typography variant='h5'>
                                     Hidden fields
                                 </Typography>
                             </Grid>
-                            <Grid item sm={12}>
-                                <Typography variant='subtitle1' sx={{ width: '400px' }}>
+                            <Grid item sm={12} xs={12}>
+                                <Typography variant='subtitle1'>
                                     Pass data to your form with URL parameters. Include UTM parameters or personal data for a customized experience.
                                 </Typography>
                             </Grid>
-                            <Grid item sm={12} sx={{ mt: 2 }}>
-                                <Typography variant='subtitle1' sx={{ width: '400px' }}>
+                            <Grid item sm={12} sx={{ pt: 2 }}>
+                                <Typography variant='subtitle1' >
                                     Tally is hosted in Europe, we don’t use cookie-tracking, and all form data is securely stored, and encrypted both in transit and at rest. Learn more about Tally & GDPR.
                                 </Typography>
                             </Grid>
@@ -116,7 +130,7 @@ export default function SubThree() {
                         <MarkEmailReadIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Email notifications.</b> Send tailored emails to yourself and respondents.
+                        <b>Email notifications.</b> Send tailored emails to yourself and respondents.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -124,7 +138,7 @@ export default function SubThree() {
                         <ShortcutIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Redirect on completion.</b> Forward respondents to another web page.
+                        <b>Redirect on completion.</b> Forward respondents to another web page.
                     </Typography>
                 </Grid>
             </Grid>
@@ -136,7 +150,7 @@ export default function SubThree() {
                         <InputIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Pre-populate fields.</b> Save time by pre-filling form fields with data you already have about respondents.
+                        <b>Pre-populate fields.</b> Save time by pre-filling form fields with data you already have about respondents.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -144,7 +158,7 @@ export default function SubThree() {
                         <SmartToyIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>reCAPTCHA.</b> Protect your forms from spam and bots.
+                        <b>reCAPTCHA.</b> Protect your forms from spam and bots.
                     </Typography>
                 </Grid>
                 <Grid item sm={4}>
@@ -152,7 +166,7 @@ export default function SubThree() {
                         <ChatBubbleOutlineIcon color="secondary" />
                     </Typography>
                     <Typography variant="subtitle1">
-                    <b>Partial submissions.</b> Capture unfinished form submissions.
+                        <b>Partial submissions.</b> Capture unfinished form submissions.
                     </Typography>
                 </Grid>
             </Grid>
