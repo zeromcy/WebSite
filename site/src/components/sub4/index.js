@@ -51,23 +51,23 @@ export default function SubFour() {
 
 
             <Paper elevation={2} sx={{ width: '100%' }}>
-                <Grid container sx={{ m: 5 }}>
-                    <Grid item sm={12} sx={{ my: 3 }}>
+                <Grid container sx={{ p: 5 }}>
+                    <Grid item sm={12} xs={12} sx={{ py: 3 }}>
                         <ColorLensOutlinedIcon color="secondary" />
                     </Grid>
-                    <Grid item sm={12}>
+                    <Grid item sm={12} xs={12}>
                         <Typography variant="h4" >
                             Customize your form
                         </Typography>
                     </Grid>
-                    <Typography variant="h6" sx={{ mt: 2, width: '780px' }}>
+                    <Typography variant="h6" sx={{ pt: 2 }}>
                         Use our pre-made themes or create your own design by customizing colors, fonts, buttons, and more.
                     </Typography>
                 </Grid>
                 <img src={InputImage} alt="" width="100%" height='300'></img>
             </Paper>
 
-            <Grid container spacing={3} sx={{ mt: 2 }}>
+            <Grid container spacing={3} sx={{ pt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
                         <AutoAwesomeMosaicOutlinedIcon color="secondary" />
@@ -95,7 +95,7 @@ export default function SubFour() {
             </Grid>
 
 
-            <Grid container spacing={3} sx={{ mt: 2 }}>
+            <Grid container spacing={3} sx={{ pt: 2 }}>
                 <Grid item sm={4}>
                     <Typography>
                         <SmartDisplayOutlinedIcon color="secondary" />
