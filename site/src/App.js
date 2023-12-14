@@ -19,6 +19,7 @@ import SubNine from './components/sub9';
 function App() {
   return (
     <>
+
       {/* bar */}
       <AppBar />
 
@@ -56,7 +57,6 @@ function App() {
         {/* sub9 */}
         <SubNine />
       </Container>
-
 
       {/* foot */}
       <Container maxWidth='lg'

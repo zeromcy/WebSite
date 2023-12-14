@@ -6,6 +6,7 @@ import BuyImage from '../../image/buy-me-a-coffee.png'
 import MakeImage from '../../image/make.png'
 import RakutenImage from '../../image/rakuten.png'
 import GlovoImage from '../../image/glovo.png'
+import FootIcon from "./footIcon";
 
 export default function Head() {
 
@@ -58,21 +59,13 @@ export default function Head() {
             sx={{
                 justifyContent:'center'
             }}>
-                <Grid item sm={2} sx={{mt:1}}>
-                    <img src={NotionImage} alt="" width="60%"></img>
-                </Grid>
-                <Grid item sm={2} sx={{mt:2}}>
-                    <img src={BuyImage} alt="" width="60%"></img>
-                </Grid>
-                <Grid item sm={2} sx={{mt:2}}>
-                    <img src={MakeImage} alt="" width="60%"></img>
-                </Grid>
-                <Grid item sm={2} >
-                    <img src={GlovoImage} alt="" width="60%"></img>
-                </Grid>
-                <Grid item sm={2} sx={{mt:1}}>
-                    <img src={RakutenImage} alt="" width="60%"></img>
-                </Grid>
+                
+                <FootIcon url={NotionImage} mt={2}/>
+                <FootIcon url={BuyImage} mt={3.5}/>
+                <FootIcon url={MakeImage} mt={3.5}/>
+                <FootIcon url={GlovoImage} mt={2}/>
+                <FootIcon url={RakutenImage} mt={3}/>
+                
 
             </Grid>
         </>
