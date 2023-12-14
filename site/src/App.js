@@ -12,13 +12,15 @@ import SubSix from './components/sub6';
 import SubSeven from './components/sub7';
 import SubEight from './components/sub8';
 import SubNine from './components/sub9';
+import {  createTheme, ThemeProvider } from '@mui/material';
 
 
 
 
 function App() {
+  const theme = createTheme();
   return (
-    <>
+    <ThemeProvider theme={theme}>
 
       {/* bar */}
       <AppBar />
@@ -64,7 +66,7 @@ function App() {
       >
         <Footer />
       </Container>
-    </>
+    </ThemeProvider>
   );
 }
 

@@ -34,10 +34,10 @@ export default function SubOne() {
                 <Grid item sm={7}>
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ px: 5 }}>
-                            <Grid item sm={12}>
+                            <Grid item sm={12} xs={12}>
                                 <KeyboardCommandKeyIcon sx={{ py: 3 }} color="secondary" />
                             </Grid>
-                            <Grid item sm={12}>
+                            <Grid item sm={12} xs={12}>
                                 <Typography variant="h5">
                                     Just start typing
                                 </Typography>
@@ -55,10 +55,10 @@ export default function SubOne() {
                 <Grid item sm={5} xs={12}>
                     <Paper elevation={2} sx={{ height: '100%' }}>
                         <Grid container sx={{ px: 3 }}>
-                            <Grid item sm={12}>
+                            <Grid item sm={12} xs={12}>
                                 <LockIcon sx={{ py: 3 }} color="secondary" />
                             </Grid>
-                            <Grid item sm={12}>
+                            <Grid item sm={12} xs={12}>
                                 <Typography variant='h5'>
                                     Privacy-friendly form builder
                                 </Typography>
