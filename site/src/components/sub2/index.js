@@ -10,6 +10,7 @@ import InputImage from '../../image/input-badges.png'
 import BuildIcon from './build';
 import Sub2BackImage from '../../image/click-plus.png'
 import { useMediaQuery, useTheme } from '@mui/material';
+import MyCarousel from '../commom/carousel';
 
 
 export default function SubTwo() {
@@ -30,7 +31,6 @@ export default function SubTwo() {
                 <Grid item sm={6} xs={6}
                     sx={{
                         alignSelf: 'end',
-                        // justifySelf:'end'
                     }}
                 >
                     <Grid container
@@ -71,7 +71,9 @@ export default function SubTwo() {
                         Easily create online forms using our wide range of free input blocks. Collect contact info, files, signatures, payments, and much more. Build everything from surveys to quizzes to lead generation forms.
                     </Typography>
                 </Grid>
-                <img src={InputImage} alt="" width="100%" height='300'></img>
+                {/* <img src={InputImage} alt="" width="100%" height='300'></img> */}
+                <MyCarousel />
+
             </Paper>
 
             <Grid container spacing={3} sx={{ mt: 2 }}>
