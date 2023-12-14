@@ -25,10 +25,6 @@ const AccordionSummary = styled((props) => (
         {...props}
     />
 ))(({ theme }) => ({
-    // backgroundColor:
-    //     theme.palette.mode === 'dark'
-    //         ? 'rgba(255, 255, 255, .05)'
-    //         : 'rgba(0, 0, 0, .03)',
     flexDirection: 'row-reverse',
     '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
         transform: 'rotate(90deg)',
@@ -40,7 +36,6 @@ const AccordionSummary = styled((props) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
     padding: theme.spacing(2),
-    // borderTop: '1px solid rgba(0, 0, 0, .125)',
 }));
 
 export default function CustomizedAccordions() {
@@ -72,16 +67,40 @@ export default function CustomizedAccordions() {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
+
             <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-                    <Typography>Is Tally GDPR compliant?</Typography>
+                    <Typography>How does Tally compare to Typeform?</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Unlike Typeform, Tally offers everything you need to create beautiful and powerful forms for free, including unlimited forms and responses.
-                        Tally offers an intuitive interface that works like a text document. Just start typing and create and customize any type of form without being restricted to the Typeform format of a single question per page.
-                        Our growth is fueled by our customers, not by investors, which means our users always come first. We have a public roadmap and you can contact us here. We’ll reply within the day.
+                        1.Unlike Typeform, Tally offers everything you need to create beautiful and powerful forms for free, including unlimited forms and responses.<br/>
+                        2.Tally offers an intuitive interface that works like a text document. Just start typing and create and customize any type of form without being restricted to the Typeform format of a single question per page.<br/>
+                        3.Our growth is fueled by our customers, not by investors, which means our users always come first. We have a public roadmap and you can contact us here. We’ll reply within the day.<br/>
                         A complete feature comparison
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+                <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+                    <Typography>Who is behind Tally?
+                    </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Tally is a proudly bootstrapped company, founded by Filip Minev 🇧🇬 and Marie Martens 🇧🇪. More about us.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+                <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+                    <Typography>How can I join the Tally community?</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        Tally is been proudly independent and bootstrapped because of the unwavering support of our passionate user base worldwide. Fostering our community is our topmost priority, so if you’re interested in ways to get involved (organize meetups, create templates, become an affiliate partner) you’ve come to the right place!
                     </Typography>
                 </AccordionDetails>
             </Accordion>
