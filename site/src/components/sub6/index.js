@@ -14,32 +14,50 @@ import MakeImage from '../../image/icon_INTEGROMAT.png'
 import PipedreamImage from '../../image/icon_PIPEDREAM.png'
 import Sub6BackImage from '../../image/customize.png'
 import MoreIcon from "./more"
+import { useMediaQuery, useTheme } from '@mui/material';
 
 export default function SubSix() {
+    const theme = useTheme();
+    const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
+
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={7}>
-                    <Typography variant='h3' sx={{ mt: 15 }}>
+                <Grid item sm={7} xs={7}>
+                    <Typography variant='h3' sx={{ pt: 15 }}>
                         Connect your favorite tools
                     </Typography>
-                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                    <Typography variant='h6' sx={{ pt: 2 }}>
                         Save time using popular integrations to sync your form submissions.
                     </Typography>
                 </Grid>
-                <Grid item sm={5}
+                <Grid item sm={5} xs={5}
                     sx={{
-                        position: 'relative',
-                        top: 55,
-                        right: -70
+                        alignSelf: 'end'
                     }}
                 >
-                    <img src={Sub6BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
-                    </img>
+                    <Grid container
+                        sx={{
+                            justifyContent: 'flex-end'
+                        }}>
+                        {
+                            match ? <img src={Sub6BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                            </img>
+                                :
+                                <img src={Sub6BackImage} alt='' width="160" height='113' sx={{ color: 'transparent', }}>
+                                </img>
+                        }
+
+
+                    </Grid>
                 </Grid>
             </Grid>
 
-            <Grid container spacing={3} sx={{ mt: 5 }} rowSpacing={3}>
+            <Grid container spacing={3} 
+            sx={{ 
+                pt: 5,
+             }} 
+            >
 
                 <Grid item sm={3}>
                     <Typography>
@@ -75,7 +93,7 @@ export default function SubSix() {
                 </Grid>
 
             </Grid>
-            <Grid container spacing={3} sx={{ mt: 5 }} rowSpacing={3}>
+            <Grid container spacing={3} sx={{ pt: 5 }} >
 
                 <Grid item sm={3}>
                     <Typography>
@@ -111,7 +129,7 @@ export default function SubSix() {
                 </Grid>
 
             </Grid>
-            <Grid container spacing={3} sx={{ mt: 5 }} rowSpacing={3}>
+            <Grid container spacing={3} sx={{ pt: 5 }} >
 
                 <Grid item sm={3}>
                     <Typography>
@@ -148,7 +166,7 @@ export default function SubSix() {
 
             </Grid>
 
-            <Typography variant="h4" align='center' sx={{ mt: 5 }} color='text.secondary'>
+            <Typography variant="h4" align='center' sx={{ pt: 5 }} color='text.secondary'>
                 “Can attest that Tally  Typeform hands down”
             </Typography>
         </>
