@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 export default function CalculatorIcon() {
     return (
         <Typography
-            sx={{ my: 3 }}
+        sx={{ py: 1 }}
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -35,7 +35,7 @@ export default function SubOne() {
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
                         <Grid container sx={{ px: 5 }}>
                             <Grid item sm={12} xs={12}>
-                                <KeyboardCommandKeyIcon sx={{ py: 3 }} color="secondary" />
+                                <KeyboardCommandKeyIcon sx={{ py: 1 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12} xs={12}>
                                 <Typography variant="h5">
@@ -56,7 +56,7 @@ export default function SubOne() {
                     <Paper elevation={2} sx={{ height: '100%' }}>
                         <Grid container sx={{ px: 3 }}>
                             <Grid item sm={12} xs={12}>
-                                <LockIcon sx={{ py: 3 }} color="secondary" />
+                                <LockIcon sx={{ py: 1 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12} xs={12}>
                                 <Typography variant='h5'>

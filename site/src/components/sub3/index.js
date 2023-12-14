@@ -54,8 +54,8 @@ export default function SubThree() {
             </Grid>
 
             <Paper elevation={2} sx={{ width: '100%' }}>
-                <Grid container sx={{ p: 5 }}>
-                    <Grid item sm={12} xs={12} sx={{ py: 3 }}>
+                <Grid container sx={{ p: 3 }}>
+                    <Grid item sm={12} xs={12} sx={{ py: 1 }}>
                         <LogicIcon />
                     </Grid>
 
@@ -69,10 +69,10 @@ export default function SubThree() {
                 <img src={InputImage} alt="" width="100%" height='300'></img>
             </Paper>
 
-            <Grid container spacing={3} sx={{ pt: 2 }}>
+            <Grid container spacing={3} sx={{ pt: 1 }}>
                 <Grid item sm={6}>
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
-                        <Grid container sx={{ px: 5 }}>
+                        <Grid container sx={{ px: 3 }}>
                             <Grid item sm={12} xs={12}>
                                 <CalculatorIcon />
                             </Grid>
@@ -92,9 +92,9 @@ export default function SubThree() {
                 </Grid>
                 <Grid item sm={6}>
                     <Paper elevation={2} sx={{ height: '100%' }}>
-                        <Grid container sx={{ px: 5 }}>
+                        <Grid container sx={{ px: 3 }}>
                             <Grid item sm={12} xs={12}>
-                                <VisibilityOffIcon sx={{ py: 3 }} color="secondary" />
+                                <VisibilityOffIcon sx={{ py: 1 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12} xs={12}>
                                 <Typography variant='h5'>
