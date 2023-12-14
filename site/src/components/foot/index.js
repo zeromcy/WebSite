@@ -13,7 +13,6 @@ const StyledLink = styled(Link)(()=>({
 const StyledTypography = styled(Typography)(()=>({
     '&':{
         width:'208px',
-        
     }
 }))
 export default function Footer() {
