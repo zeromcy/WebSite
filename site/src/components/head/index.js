@@ -7,6 +7,9 @@ import MakeImage from '../../image/make.png'
 import RakutenImage from '../../image/rakuten.png'
 import GlovoImage from '../../image/glovo.png'
 import FootIcon from "./footIcon";
+import headVideo from '../../video/head.mp4'
+import { CircleIcon } from "./circleIcon";
+
 
 export default function Head() {
 
@@ -41,16 +44,20 @@ export default function Head() {
                 justifyContent: 'center',
                 mb:5
             }}>
-                <Paper elevation={3} >
+                <Paper elevation={3} width='100%'>
                 <Toolbar 
                 sx={{
                     '&':{
                         minHeight:'48px'
                     }
                 }}>
+                    <CircleIcon/>
+                    <CircleIcon/>
+                    <CircleIcon/>
                 </Toolbar>
                 <Divider />
-                    <img src={headImage} alt="" width='60%'></img>
+                    {/* <img src={headImage} alt="" width='60%'></img> */}
+                    <video playsinline="" autoplay="" muted="" loop="" width="100%" src={headVideo}></video>
                 </Paper>
             </Grid>
 
