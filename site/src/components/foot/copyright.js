@@ -13,19 +13,19 @@ export default function Copyright(props) {
         {'.'}
       </Typography>
       <Grid container columns={10} sx={{px:2,py:5}}>
-        <Grid item sm={2}>
+        <Grid item sm={2} xs={2}>
           <Twitter />
         </Grid>
-        <Grid item sm={2}>
+        <Grid item sm={2} xs={2}>
           <Reddit />
         </Grid>
-        <Grid item sm={2}>
+        <Grid item sm={2} xs={2}>
           <Linkedin />
         </Grid>
-        <Grid item sm={2}>
+        <Grid item sm={2} xs={2}>
           <Yt />
         </Grid>
-        <Grid item sm={2}>
+        <Grid item sm={2} xs={2}>
           <Fb />
         </Grid>
 

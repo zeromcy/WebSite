@@ -19,7 +19,7 @@ export default function Footer() {
     return (
         <>
             <Grid container spacing={2}>
-                <Grid item sm={3}>
+                <Grid item sm={4}>
                     <Grid container>
                         <Grid item sm={12}>
                             <img src={LogoImage} alt="" width="30%"></img>
@@ -32,8 +32,8 @@ export default function Footer() {
                     </Grid>
                 </Grid>
 
-                <Grid item sm={2}></Grid>
-                <Grid item sm={2}>
+                <Grid item sm={8} md={1}></Grid>
+                <Grid item md={2} sm={4} xs={12}>
                     <StyledTypography variant='body1' >
                         Product
                     </StyledTypography>
@@ -74,7 +74,7 @@ export default function Footer() {
                     </StyledTypography>
                 </Grid>
 
-                <Grid item sm={2}>
+                <Grid item md={2} sm={4} xs={12}>
                     <StyledTypography variant='body1' >
                         Help
                     </StyledTypography>
@@ -125,7 +125,7 @@ export default function Footer() {
                    
                 </Grid>
 
-                <Grid item sm={2}>
+                <Grid item md={2} sm={4} xs={12}>
                     <StyledTypography variant='body1' >
                         Resources
                     </StyledTypography>

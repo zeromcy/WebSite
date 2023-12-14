@@ -5,43 +5,57 @@ import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 import ContactMailOutlinedIcon from '@mui/icons-material/ContactMailOutlined';
 import SentimentSatisfiedOutlinedIcon from '@mui/icons-material/SentimentSatisfiedOutlined';
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
-import { Grid, List, ListItem,  ListItemText, Paper, Typography } from "@mui/material"
+import { Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import Sub7BackImage from '../../image/customize.png'
+import { useMediaQuery, useTheme } from '@mui/material';
 
 
 export default function SubSeven() {
+    const theme = useTheme();
+    const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
+
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={7}>
-                    <Typography variant='h3' sx={{ mt: 15 }}>
+                <Grid item sm={7} xs={7}>
+                    <Typography variant='h3' sx={{ pt: 15 }}>
                         Designed for you
                     </Typography>
-                    <Typography variant='h6' sx={{ width: '480px', mt: 2 }}>
+                    <Typography variant='h6' sx={{ pt: 2 }}>
                         Start from scratch or explore templates created by our community.
                     </Typography>
                 </Grid>
 
-                <Grid item sm={5}
+                <Grid item sm={5} xs={5}
                     sx={{
-                        position: 'relative',
-                        top: 40,
-                        right: -70
+                        alignSelf: 'end'
                     }}
                 >
-                    <img src={Sub7BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
-                    </img>
+                    <Grid container
+                        sx={{
+                            justifyContent: 'flex-end'
+                        }}>
+                        {
+                            match ?
+                                <img src={Sub7BackImage} alt='' width="406" height='240' sx={{ color: 'transparent', }}>
+                                </img>
+                                :
+                                <img src={Sub7BackImage} alt='' width="160" height='99' sx={{ color: 'transparent', }}>
+                                </img>
+                        }
+
+                    </Grid>
                 </Grid>
             </Grid>
 
             <Paper sx={{ height: '100%' }} elevation={3}>
-                <Grid container sx={{ my: 3, mx: 10 }}>
+                <Grid container sx={{ py: 3,px: 5 }}>
                     <Grid item sm={4}>
                         <Typography>
-                            <GrassOutlinedIcon sx={{ mt: 2 }} color='secondary' />
+                            <GrassOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
-                        <Typography variant='h6' sx={{ width: '480px', }}>
+                        <Typography variant='h6' >
                             Creators
                         </Typography>
                         <List>
@@ -64,9 +78,9 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <HourglassEmptyOutlinedIcon sx={{ mt: 2 }} color='secondary' />
+                            <HourglassEmptyOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
-                        <Typography variant='h6' sx={{ width: '480px', }}>
+                        <Typography variant='h6' >
                             Product
                         </Typography>
                         <List>
@@ -89,9 +103,9 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <AutoAwesomeOutlinedIcon sx={{ mt: 2 }} color='secondary' />
+                            <AutoAwesomeOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
-                        <Typography variant='h6' sx={{ width: '480px', }}>
+                        <Typography variant='h6' >
                             Marketing
                         </Typography>
                         <List>
@@ -113,12 +127,12 @@ export default function SubSeven() {
                         </List>
                     </Grid>
                 </Grid>
-                <Grid container sx={{ my: 3, mx: 10 }}>
+                <Grid container sx={{ py: 3, px: 5 }}>
                     <Grid item sm={4}>
                         <Typography>
-                            <ContactMailOutlinedIcon sx={{ mt: 2 }} color='secondary' />
+                            <ContactMailOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
-                        <Typography variant='h6' sx={{ width: '480px', }}>
+                        <Typography variant='h6'>
                             HR
                         </Typography>
                         <List>
@@ -141,9 +155,9 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <ApartmentOutlinedIcon sx={{ mt: 2 }} color='secondary' />
+                            <ApartmentOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
-                        <Typography variant='h6' sx={{ width: '480px', }}>
+                        <Typography variant='h6'>
                             Office
                         </Typography>
                         <List>
@@ -166,9 +180,9 @@ export default function SubSeven() {
                     </Grid>
                     <Grid item sm={4}>
                         <Typography>
-                            <SentimentSatisfiedOutlinedIcon sx={{ mt: 2 }} color='secondary' />
+                            <SentimentSatisfiedOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
-                        <Typography variant='h6' sx={{ width: '480px', }}>
+                        <Typography variant='h6'>
                             Personal
                         </Typography>
                         <List>
@@ -193,7 +207,7 @@ export default function SubSeven() {
             </Paper>
 
 
-            <Typography variant="h4" align='center' sx={{ mt: 5 }} color='text.secondary'>
+            <Typography variant="h4" align='center' sx={{ pt: 5 }} color='text.secondary'>
                 “Non stop new features and amazing UX makes Tally my go-to form builder. I love using it!”
             </Typography>
         </>
