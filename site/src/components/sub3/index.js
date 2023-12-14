@@ -7,9 +7,10 @@ import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import Sub1Image from '../../image/smart-3.png'
 import Encryption from '../../image/encryption.png'
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import { Grid, Paper, Typography } from "@mui/material"
+import { Grid, Paper, Typography,Toolbar,Divider } from "@mui/material"
+import { CircleIcon } from '../head/circleIcon';
 import '../../css/img.css'
-import InputImage from '../../image/input-badges.png'
+import InputImage from '../../image/smart-3.png'
 import LogicIcon from './logic';
 import CalculatorIcon from './calculator';
 import Sub3BackImage from '../../image/smart.png'
@@ -66,7 +67,22 @@ export default function SubThree() {
                         Build dynamic forms that adapt based on prior inputs or external data. Show and hide blocks, insert branching, or calculate values to create a personalized form experience.
                     </Typography>
                 </Grid>
-                <img src={InputImage} alt="" width="100%" height='300'></img>
+                <Grid item >
+                    <Paper elevation={2} sx={{ m: '5%' }}>
+                        <Toolbar
+                            sx={{
+                                '&': {
+                                    minHeight: '48px'
+                                }
+                            }}>
+                            <CircleIcon />
+                            <CircleIcon />
+                            <CircleIcon />
+                        </Toolbar>
+                        <Divider />
+                        <img src={InputImage} alt="" width="100%" height='400'></img>
+                    </Paper>
+                </Grid>
             </Paper>
 
             <Grid container spacing={3} sx={{ pt: 1 }}>

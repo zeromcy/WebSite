@@ -6,7 +6,7 @@ import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlin
 import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
-import Sub5BackImage from '../../image/customize.png'
+import Sub5BackImage from '../../image/paper-plane.png'
 import '../../css/btn.css'
 import { useMediaQuery, useTheme } from '@mui/material';
 

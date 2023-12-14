@@ -1,11 +1,11 @@
 import * as React from 'react'
 import img1 from '../../image/customize.png'
 import img2 from '../../image/dive-in.png'
-import {  Paper, Toolbar, Divider } from "@mui/material"
+import { Paper, Toolbar, Divider } from "@mui/material"
 import { CircleIcon } from '../head/circleIcon'
 
 
-export default function MyCarousel({type}) {
+export default function MyCarousel({ type }) {
 
     const [nowSrc, setNowSrc] = React.useState(img1);
     const images = [img1, img2]
@@ -30,13 +30,14 @@ export default function MyCarousel({type}) {
         <Paper
             elevation={2}
             sx={
-                type==='left'?{ ml: '20%' }:{mx:'5%'}}
-        > <Toolbar
-            sx={{
-                '&': {
-                    minHeight: '48px'
-                }
-            }}>
+                type === 'left' ? { ml: '20%' } : { mx: '5%' }}
+        >
+            <Toolbar
+                sx={{
+                    '&': {
+                        minHeight: '48px'
+                    }
+                }}>
                 <CircleIcon />
                 <CircleIcon />
                 <CircleIcon />

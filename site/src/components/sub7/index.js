@@ -7,7 +7,7 @@ import SentimentSatisfiedOutlinedIcon from '@mui/icons-material/SentimentSatisfi
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
 import { Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
-import Sub7BackImage from '../../image/customize.png'
+import Sub7BackImage from '../../image/designed-for-you.png'
 import { useMediaQuery, useTheme } from '@mui/material';
 
 

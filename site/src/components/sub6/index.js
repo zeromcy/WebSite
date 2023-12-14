@@ -12,7 +12,7 @@ import FaceImage from '../../image/icon_FACEBOOK_PIXEL.png'
 import ZapierImage from '../../image/icon_ZAPIER.png'
 import MakeImage from '../../image/icon_INTEGROMAT.png'
 import PipedreamImage from '../../image/icon_PIPEDREAM.png'
-import Sub6BackImage from '../../image/customize.png'
+import Sub6BackImage from '../../image/strategy.png'
 import MoreIcon from "./more"
 import { useMediaQuery, useTheme } from '@mui/material';
 
