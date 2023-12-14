@@ -5,6 +5,7 @@ import KeyboardCommandKeyIcon from '@mui/icons-material/KeyboardCommandKey';
 import LockIcon from '@mui/icons-material/Lock';
 import Sub1Image from '../../image/smart-3.png'
 import Encryption from '../../image/encryption.png'
+import Sub1Video from '../../video/just-type-card.mp4'
 
 export default function SubOne() {
     return (
@@ -17,15 +18,15 @@ export default function SubOne() {
             </Typography>
 
             <Paper elevation={2} sx={{ width: '100%' }}>
-                <Grid container sx={{p:2 }}>
+                <Grid container sx={{ p: 2 }}>
 
-                        <Typography variant="h4" sx={{ mt: 1 }}>
-                            Unlimited forms and submissions for free
-                        </Typography>
+                    <Typography variant="h4" sx={{ mt: 1 }}>
+                        Unlimited forms and submissions for free
+                    </Typography>
 
-                        <Typography variant="h6" sx={{ mt: 2, }}>
-                            Paywalls getting in the way of great forms? Here at Tally, we provide unlimited forms, submissions, and everything you need to create professional forms and surveys — all free of charge as long as you stay within our fair usage guidelines.
-                        </Typography>
+                    <Typography variant="h6" sx={{ mt: 2, }}>
+                        Paywalls getting in the way of great forms? Here at Tally, we provide unlimited forms, submissions, and everything you need to create professional forms and surveys — all free of charge as long as you stay within our fair usage guidelines.
+                    </Typography>
 
                 </Grid>
                 <img src={DiveImage} alt="" width="100%"></img>
@@ -48,7 +49,9 @@ export default function SubOne() {
                                 </Typography>
                             </Grid>
                         </Grid>
-                        <img src={Sub1Image} alt="" width='100%'></img>
+                        {/* <img src={Sub1Image} alt="" width='100%'></img> */}
+                        <video playsinline="" autoplay="" muted="" loop="" width="100%" src={Sub1Video}></video>
+
                     </Paper>
                 </Grid>
                 <Grid item sm={5}>

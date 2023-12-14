@@ -1,6 +1,5 @@
 import StyledButton from "../commom/MyButton"
 import { Typography, Grid,  Paper, Divider, Toolbar } from "@mui/material";
-import headImage from '../../image/smart-1.png'
 import NotionImage from '../../image/notion.png'
 import BuyImage from '../../image/buy-me-a-coffee.png'
 import MakeImage from '../../image/make.png'
@@ -56,7 +55,6 @@ export default function Head() {
                     <CircleIcon/>
                 </Toolbar>
                 <Divider />
-                    {/* <img src={headImage} alt="" width='60%'></img> */}
                     <video playsinline="" autoplay="" muted="" loop="" width="100%" src={headVideo}></video>
                 </Paper>
             </Grid>
