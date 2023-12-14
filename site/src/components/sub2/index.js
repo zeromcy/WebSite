@@ -4,14 +4,14 @@ import CreditCardIcon from '@mui/icons-material/CreditCard';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import { Grid, Paper, Typography } from "@mui/material"
+import { Grid, Paper, Typography, Toolbar, Divider } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
 import BuildIcon from './build';
 import Sub2BackImage from '../../image/click-plus.png'
 import { useMediaQuery, useTheme } from '@mui/material';
 import MyCarousel from '../commom/carousel';
-
+import { CircleIcon } from '../head/circleIcon';
 
 export default function SubTwo() {
     const theme = useTheme();
@@ -72,7 +72,13 @@ export default function SubTwo() {
                     </Typography>
                 </Grid>
                 {/* <img src={InputImage} alt="" width="100%" height='300'></img> */}
-                <MyCarousel />
+                <Grid item
+                    sx={{
+                        width: '100%',
+                        backgroundImage: `url(${InputImage})`,
+                    }}>
+                    <MyCarousel type='left'/>
+                </Grid>
 
             </Paper>
 

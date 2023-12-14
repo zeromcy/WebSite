@@ -10,6 +10,7 @@ import InputImage from '../../image/input-badges.png'
 import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
 import Sub4BackImage from '../../image/customize.png'
 import { useMediaQuery, useTheme } from '@mui/material';
+import MyCarousel from '../commom/carousel';
 
 export default function SubFour() {
     const theme = useTheme();
@@ -64,7 +65,11 @@ export default function SubFour() {
                         Use our pre-made themes or create your own design by customizing colors, fonts, buttons, and more.
                     </Typography>
                 </Grid>
-                <img src={InputImage} alt="" width="100%" height='300'></img>
+
+                <Grid item>
+                    <MyCarousel type='center' />
+                </Grid>
+                {/* <img src={InputImage} alt="" width="100%" height='300'></img> */}
             </Paper>
 
             <Grid container spacing={3} sx={{ pt: 2 }}>
