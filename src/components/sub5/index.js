@@ -11,6 +11,8 @@ import InputImage from '../../image/input-badges.png'
 import Sub5BackImage from '../../image/paper-plane.png'
 import '../../css/btn.css'
 import { useMediaQuery, useTheme } from '@mui/material';
+import { Sub1Content, SubTitle1, Sub2Content, SubTitle2 } from "../commom/myTypography";
+
 
 export default function SubFive() {
     const theme = useTheme();
@@ -20,12 +22,13 @@ export default function SubFive() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={7} xs={12}>
-                    <Typography variant='h3' sx={{ pt: 15 }}>
-                        Share with your audience
-                    </Typography>
-                    <Typography variant='h6' sx={{ pt: 2 }}>
-                        Tailor how you share and display forms to connect with your audience across platforms.
-                    </Typography>
+
+                    <SubTitle1
+                        content={'Share with your audience'}>
+                    </SubTitle1>
+                    <Sub1Content
+                        content={'Tailor how you share and display forms to connect with your audience across platforms.'}>
+                    </Sub1Content>
                 </Grid>
 
                 <Grid item sm={5} xs={0}
@@ -60,12 +63,14 @@ export default function SubFive() {
                                 <SpaceDashboardOutlinedIcon color="secondary" />
                             </Grid>
 
-                            <Typography variant="h4" >
-                                Embed
-                            </Typography>
-                            <Typography variant="h6" sx={{ pt: 2 }}>
-                                Seamlessly embed your forms into your website, landing page, or Notion. Whether you use WordPress, Webflow, Framer, or any other website builder, integrating Tally forms into your web pages is simple.
-                            </Typography>
+
+
+                            <SubTitle2
+                                content={' Embed'}>
+                            </SubTitle2>
+                            <Sub2Content
+                                content={'Seamlessly embed your forms into your website, landing page, or Notion. Whether you use WordPress, Webflow, Framer, or any other website builder, integrating Tally forms into your web pages is simple.'}>
+                            </Sub2Content>
                         </Grid>
                         <Paper elevation={3} className='paper_1'>
                             <Toolbar
@@ -92,12 +97,14 @@ export default function SubFive() {
                                         <BrandingWatermarkOutlinedIcon color="secondary" />
                                     </Grid>
 
-                                    <Typography variant="h4" >
-                                        Popup
-                                    </Typography>
-                                    <Typography variant="h6" sx={{ pt: 2 }}>
-                                        Create an eye-catching popup form for your website in seconds.
-                                    </Typography>
+
+
+                                    <SubTitle2
+                                        content={' Popup'}>
+                                    </SubTitle2>
+                                    <Sub2Content
+                                        content={'Create an eye-catching popup form for your website in seconds.'}>
+                                    </Sub2Content>
                                 </Grid>
                                 <StyledButton className='btn' variant="contained" sx={{ width: '90%', m: 2 }}>Click me</StyledButton>
                             </Paper>
@@ -109,13 +116,14 @@ export default function SubFive() {
                                         <AttachFileOutlinedIcon color="secondary" />
                                     </Grid>
 
-                                    <Typography variant="h4" >
-                                        Tally links
 
-                                    </Typography>
-                                    <Typography variant="h6" sx={{ pt: 2 }}>
-                                        Share your unique Tally form link with anyone.
-                                    </Typography>
+
+                                    <SubTitle2
+                                        content={' Tally links'}>
+                                    </SubTitle2>
+                                    <Sub2Content
+                                        content={'Share your unique Tally form link with anyone.'}>
+                                    </Sub2Content>
                                 </Grid>
                                 <StyledButton className='btn' variant="contained" sx={{ width: '90%', m: 2 }}>Click me</StyledButton>
                             </Paper>
@@ -127,12 +135,14 @@ export default function SubFive() {
                                         <LanguageOutlinedIcon color="secondary" />
                                     </Grid>
 
-                                    <Typography variant="h4" >
-                                        Custom domains
-                                    </Typography>
-                                    <Typography variant="h6" sx={{ pt: 2 }}>
-                                        Host forms on your own (sub)domain to create branded form links.
-                                    </Typography>
+
+
+                                    <SubTitle2
+                                        content={'Custom domains'}>
+                                    </SubTitle2>
+                                    <Sub2Content
+                                        content={'Host forms on your own (sub)domain to create branded form links.'}>
+                                    </Sub2Content>
                                 </Grid>
                                 <StyledButton className='btn' variant="contained" sx={{ width: '90%', m: 2 }}>Click me</StyledButton>
                             </Paper>

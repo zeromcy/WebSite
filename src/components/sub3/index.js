@@ -15,6 +15,7 @@ import LogicIcon from './logic';
 import CalculatorIcon from './calculator';
 import Sub3BackImage from '../../image/smart.png'
 import { useMediaQuery, useTheme } from '@mui/material';
+import { Sub1Content, SubTitle1, Sub2Content, SubTitle2, FootContent } from "../commom/myTypography";
 
 export default function SubThree() {
     const theme = useTheme();
@@ -23,12 +24,9 @@ export default function SubThree() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={6} xs={12}>
-                    <Typography variant='h3' sx={{ pt: 15 }}>
-                        Craft intelligent forms
-                    </Typography>
-                    <Typography variant='h6' sx={{ pt: 2 }}>
-                        Our smart features make it easy to turn your forms into a tailored experience for every respondent.
-                    </Typography>
+                    
+                    <SubTitle1 content={'Craft intelligent forms'}></SubTitle1>
+                    <Sub1Content content={'Our smart features make it easy to turn your forms into a tailored experience for every respondent.'}></Sub1Content>
                 </Grid>
                 <Grid item sm={6} xs={0}
                     sx={{
@@ -61,12 +59,11 @@ export default function SubThree() {
                     </Grid>
                     <Grid item sm={12} xs={12}>
 
-                        <Typography variant="h4" >
-                            Conditional logic
-                        </Typography>
-                        <Typography variant="h6" sx={{ pt: 2 }}>
-                            Build dynamic forms that adapt based on prior inputs or external data. Show and hide blocks, insert branching, or calculate values to create a personalized form experience.
-                        </Typography>
+                        
+                        <SubTitle2
+                            content={'Conditional logic'}></SubTitle2>
+                        <Sub2Content content={'Build dynamic forms that adapt based on prior inputs or external data. Show and hide blocks, insert branching, or calculate values to create a personalized form experience.'}
+                        ></Sub2Content>
                     </Grid>
                 </Grid>
                 <Grid item >
@@ -95,14 +92,16 @@ export default function SubThree() {
                                 <CalculatorIcon />
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                <Typography variant="h5">
-                                    Calculator
-                                </Typography>
+                                
+                                <SubTitle2
+                                    content={'Calculator'}>
+                                </SubTitle2>
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                <Typography variant="subtitle1" >
-                                    Use variables to create dynamic content and calculate values, scores, prices and more.
-                                </Typography>
+                                
+                                <Sub2Content
+                                    content={'Use variables to create dynamic content and calculate values, scores, prices and more.'}>
+                                </Sub2Content>
                             </Grid>
                         </Grid>
                         <img src={Sub1Image} alt="" width='100%'></img>
@@ -115,14 +114,16 @@ export default function SubThree() {
                                 <VisibilityOffIcon sx={{ py: 1 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                <Typography variant='h5'>
-                                    Hidden fields
-                                </Typography>
+                                
+                                <SubTitle2
+                                    content={'Hidden fields'}>
+                                </SubTitle2>
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                <Typography variant='subtitle1'>
-                                    Pass data to your form with URL parameters. Include UTM parameters or personal data for a customized experience.
-                                </Typography>
+                                
+                                <Sub2Content
+                                    content={'Pass data to your form with URL parameters. Include UTM parameters or personal data for a customized experience.'}>
+                                </Sub2Content>
                             </Grid>
                             <Grid item sm={12} sx={{ pt: 2 }}>
                                 <Typography variant='subtitle1' >
@@ -189,9 +190,10 @@ export default function SubThree() {
                 </Grid>
             </Grid>
 
-            <Typography variant="h4" align='center' sx={{ mt: 5 }} color='text.secondary'>
-                “Tally is doing to forms what Notion did to docs & sheets.”
-            </Typography>
+            
+            <FootContent
+                content={'“Tally is doing to forms what Notion did to docs & sheets.”'}>
+            </FootContent>
 
         </>
     )

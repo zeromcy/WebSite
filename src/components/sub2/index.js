@@ -20,6 +20,7 @@ import img6 from '../../image/inputs-6.png'
 import img7 from '../../image/inputs-7.png'
 import img8 from '../../image/inputs-8.png'
 import img9 from '../../image/inputs-9.png'
+import { Sub1Content, Sub2Content, SubTitle1, SubTitle2 } from '../commom/myTypography';
 
 
 
@@ -32,12 +33,17 @@ export default function SubTwo() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={6} xs={12}>
-                    <Typography variant='h3' sx={{ pt: 15 }}>
-                        Simple but powerful
-                    </Typography>
-                    <Typography variant='h6' sx={{ pt: 2 }}>
-                        Advanced features packed in a simple form builder. It couldn’t be easier to create forms that convert.
-                    </Typography>
+                    <SubTitle1 
+                    content={
+                        "Simple but powerful"
+                    }
+                    >
+                    </SubTitle1>
+
+                    <Sub1Content
+                    content={"Advanced features packed in a simple form builder. It couldn’t be easier to create forms that convert."}>
+                    </Sub1Content>
+                    
                 </Grid>
 
                 <Grid item sm={6} xs={0}
@@ -52,7 +58,7 @@ export default function SubTwo() {
 
                         {
                             match ?
-                                <img src={Sub2BackImage} alt='' width="320" height='237'
+                                <img src={Sub2BackImage} alt='' width="220" height='148'
                                     sx={{
                                         color: 'transparent',
                                     }}>
@@ -75,15 +81,11 @@ export default function SubTwo() {
                     <Grid item sm={12} xs={12} sx={{ py: 1 }}>
                         <BuildIcon />
                     </Grid>
-
-                    <Typography variant="h4" >
-                        Build any form in seconds
-                    </Typography>
-                    <Typography variant="h6" sx={{ pt: 2 }}>
-                        Easily create online forms using our wide range of free input blocks. Collect contact info, files, signatures, payments, and much more. Build everything from surveys to quizzes to lead generation forms.
-                    </Typography>
+                    <SubTitle2 content={"Build any form in seconds"}></SubTitle2>
+                    <Sub2Content content={"Easily create online forms using our wide range of free input blocks. Collect contact info, files, signatures, payments, and much more. Build everything from surveys to quizzes to lead generation forms."}></Sub2Content>
+                    
                 </Grid>
-                {/* <img src={InputImage} alt="" width="100%" height='300'></img> */}
+
                 <Grid item
                     sx={{
                         width: '100%',

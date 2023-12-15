@@ -9,6 +9,7 @@ import { Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/mate
 import '../../css/img.css'
 import Sub7BackImage from '../../image/designed-for-you.png'
 import { useMediaQuery, useTheme } from '@mui/material';
+import { Sub1Content, SubTitle1, FootContent } from "../commom/myTypography";
 
 
 export default function SubSeven() {
@@ -19,12 +20,14 @@ export default function SubSeven() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={7} xs={12}>
-                    <Typography variant='h3' sx={{ pt: 15 }}>
-                        Designed for you
-                    </Typography>
-                    <Typography variant='h6' sx={{ pt: 2 }}>
-                        Start from scratch or explore templates created by our community.
-                    </Typography>
+
+
+                    <SubTitle1
+                        content={'Designed for you'}>
+                    </SubTitle1>
+                    <Sub1Content
+                        content={'Start from scratch or explore templates created by our community.'}>
+                    </Sub1Content>
                 </Grid>
 
                 <Grid item sm={5} xs={0}
@@ -50,7 +53,7 @@ export default function SubSeven() {
             </Grid>
 
             <Paper sx={{ height: '100%' }} elevation={3}>
-                <Grid container sx={{ py: 1,px: 1 }}>
+                <Grid container sx={{ py: 1, px: 1 }}>
                     <Grid item sm={4}>
                         <Typography>
                             <GrassOutlinedIcon sx={{ pt: 2 }} color='secondary' />
@@ -207,9 +210,10 @@ export default function SubSeven() {
             </Paper>
 
 
-            <Typography variant="h4" align='center' sx={{ pt: 5 }} color='text.secondary'>
-                “Non stop new features and amazing UX makes Tally my go-to form builder. I love using it!”
-            </Typography>
+            
+            <FootContent
+                content={'“Non stop new features and amazing UX makes Tally my go-to form builder. I love using it!”ƒ'}>
+            </FootContent>
         </>
     )
 }

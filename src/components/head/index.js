@@ -45,7 +45,6 @@ export default function Head() {
                     <Typography variant="h6"
                         align="center"
                         sx={{
-
                             fontSize:{
                                 xs:'16px',
                                 sm:'16px',

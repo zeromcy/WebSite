@@ -14,6 +14,7 @@ import MakeImage from '../../image/icon_INTEGROMAT.png'
 import PipedreamImage from '../../image/icon_PIPEDREAM.png'
 import Sub6BackImage from '../../image/strategy.png'
 import MoreIcon from "./more"
+import { Sub1Content, SubTitle1, FootContent } from "../commom/myTypography";
 import { useMediaQuery, useTheme } from '@mui/material';
 
 export default function SubSix() {
@@ -24,12 +25,13 @@ export default function SubSix() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={7} xs={12}>
-                    <Typography variant='h3' sx={{ pt: 15 }}>
-                        Connect your favorite tools
-                    </Typography>
-                    <Typography variant='h6' sx={{ pt: 2 }}>
-                        Save time using popular integrations to sync your form submissions.
-                    </Typography>
+
+                    <SubTitle1
+                        content={'Connect your favorite tools'}>
+                    </SubTitle1>
+                    <Sub1Content
+                        content={'Save time using popular integrations to sync your form submissions.'}>
+                    </Sub1Content>
                 </Grid>
                 <Grid item sm={5} xs={0}
                     sx={{
@@ -53,10 +55,10 @@ export default function SubSix() {
                 </Grid>
             </Grid>
 
-            <Grid container spacing={3} 
-            sx={{ 
-                pt: 5,
-             }} 
+            <Grid container spacing={3}
+                sx={{
+                    pt: 5,
+                }}
             >
 
                 <Grid item sm={3}>
@@ -166,9 +168,10 @@ export default function SubSix() {
 
             </Grid>
 
-            <Typography variant="h4" align='center' sx={{ pt: 5 }} color='text.secondary'>
-                “Can attest that Tally  Typeform hands down”
-            </Typography>
+            
+            <FootContent
+                content={'“Can attest that Tally  Typeform hands down”'}>
+            </FootContent>
         </>
     )
 }

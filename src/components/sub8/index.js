@@ -6,6 +6,8 @@ import '../../css/leftRifht.css'
 import '../../css/sub8.css'
 import LeftImage from '../../image/particles-left.png'
 import RightImage from '../../image/particles-right.png'
+import { FootContent } from "../commom/myTypography";
+
 
 export default function SubEight() {
     const theme = useTheme()
@@ -17,7 +19,7 @@ export default function SubEight() {
                     match ?
                         <Grid item sm={1}>
                             <div>
-                                <img src={LeftImage} alt='' width='164' height='862' className="left"/>
+                                <img src={LeftImage} alt='' width='164' height='862' className="left" />
                             </div>
                         </Grid>
                         :
@@ -28,10 +30,31 @@ export default function SubEight() {
                     <Typography align='center' sx={{ mt: 15 }}>
                         <img src={Sub8Image} alt='' width='50%'></img>
                     </Typography>
-                    <Typography variant="h2" align='center'>
+                    <Typography variant="h2" align='center'
+                        sx={{
+                            fontSize: {
+                                xs: '26px',
+                                sm: '32px',
+                                md: '32px',
+                                lg: '50px',
+                                xl: '64px',
+                            },
+                            fontWeight: 900
+                        }}
+                    >
                         Build stunning forms for free
                     </Typography>
-                    <Typography variant="h5" align='center' color='text.secondary'>
+                    <Typography variant="h5" align='center' color='text.secondary'
+                        sx={{
+                            fontSize: {
+                                xs: '16px',
+                                sm: '16px',
+                                md: '16px',
+                                lg: '22px',
+                                xl: '22px',
+                            },
+                        }}
+                    >
                         Build stunning forms for freeIt’s as simple as one-two-three, and guess what? You don’t even need an account to try it out!
                     </Typography>
 
@@ -39,9 +62,10 @@ export default function SubEight() {
                         <StyledButton className='btn' variant="contained">Create a free form</StyledButton>
                     </Typography>
 
-                    <Typography variant="h4" align='center' sx={{ mt: 5 }} color='text.secondary'>
-                        “Absolutely adore Tally! A game-changer - incredibly powerful, yet ridiculously user-friendly. It enabled me to effortlessly gather inputs, add forms with ease, and even pre-fill them. And the icing on the cake - absolutely free to use!”
-                    </Typography>
+                   
+                    <FootContent
+                    content={'“Absolutely adore Tally! A game-changer - incredibly powerful, yet ridiculously user-friendly. It enabled me to effortlessly gather inputs, add forms with ease, and even pre-fill them. And the icing on the cake - absolutely free to use!”'}>
+                    </FootContent>
                 </Grid>
 
                 {

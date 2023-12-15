@@ -15,21 +15,23 @@ import img2 from '../../image/customization-2.png'
 import img3 from '../../image/customization-3.png'
 import img4 from '../../image/customization-4.png'
 import img5 from '../../image/customization-5.png'
+import { Sub1Content, SubTitle1, Sub2Content, SubTitle2 } from "../commom/myTypography";
 
 export default function SubFour() {
-    const images = [img1,img2,img3,img4,img5]
+    const images = [img1, img2, img3, img4, img5]
     const theme = useTheme();
     const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
     return (
         <>
             <Grid container spacing={3}>
                 <Grid item sm={6} xs={12}>
-                    <Typography variant='h3' sx={{ pt: 15 }}>
-                        Make forms uniquely yours
-                    </Typography>
-                    <Typography variant='h6' sx={{ pt: 2 }}>
-                        Easily customize the design and layout to fit any form to your brand.
-                    </Typography>
+                    
+                    <SubTitle1
+                        content={'Make forms uniquely yours'}>
+                    </SubTitle1>
+                    <Sub1Content
+                        content={'Easily customize the design and layout to fit any form to your brand.'}>
+                    </Sub1Content>
                 </Grid>
 
                 <Grid item sm={6} xs={0}
@@ -62,19 +64,21 @@ export default function SubFour() {
                         <ColorLensOutlinedIcon color="secondary" />
                     </Grid>
                     <Grid item sm={12} xs={12}>
-                        <Typography variant="h4" >
-                            Customize your form
-                        </Typography>
+                        
+                        <SubTitle2
+                            content={'Customize your form'}>
+                        </SubTitle2>
                     </Grid>
-                    <Typography variant="h6" sx={{ pt: 2 }}>
-                        Use our pre-made themes or create your own design by customizing colors, fonts, buttons, and more.
-                    </Typography>
+                    
+                    <Sub2Content
+                        content={'Use our pre-made themes or create your own design by customizing colors, fonts, buttons, and more.'}>
+                    </Sub2Content>
                 </Grid>
 
                 <Grid item>
-                    <MyCarousel type='center' images={images}/>
+                    <MyCarousel type='center' images={images} />
                 </Grid>
-                {/* <img src={InputImage} alt="" width="100%" height='300'></img> */}
+                
             </Paper>
 
             <Grid container spacing={3} sx={{ pt: 2 }}>
