@@ -5,14 +5,14 @@ function SubTitle1({ content }) {
     return (
         <Typography
             sx={{
-                fontSize: {
-                    xs: '20px',
-                    sm: '24px',
-                    md: '24px',
-                    lg: '32px',
-                    xl: '36px',
+                typography: {
+                    xs: 'h6',
+                    sm: 'h5',
+                    md: 'h5',
+                    lg: 'h4',
+                    xl: 'h4',
                 },
-                fontWeight: 900,
+
                 mt:15
             }}
         >
@@ -25,14 +25,14 @@ function SubTitle2({ content }) {
     return (
         <Typography
             sx={{
-                fontSize: {
-                    xs: '16px',
-                    sm: '16px',
-                    md: '16px',
-                    lg: '16px',
-                    xl: '22px',
+                typography: {
+                    xs: 'body1',
+                    sm: 'body1',
+                    md: 'body1',
+                    lg: 'body1',
+                    xl: 'h5',
                 },
-                fontWeight: 900,
+
             }}
         >
             {content}
@@ -44,14 +44,14 @@ function Sub1Content({ content }) {
     return (
         <Typography
             sx={{
-                fontSize: {
-                    xs: '16px',
-                    sm: '16px',
-                    md: '16px',
-                    lg: '18px',
-                    xl: '18px',
+                typography: {
+                    xs: 'body1',
+                    sm: 'body1',
+                    md: 'body1',
+                    lg: 'body1',
+                    xl: 'h5',
                 },
-                fontWeight:550
+
             }}
         >
             {content}
@@ -62,12 +62,12 @@ function Sub2Content({ content }) {
     return (
         <Typography
             sx={{
-                fontSize: {
-                    xs: '16px',
-                    sm: '16px',
-                    md: '16px',
-                    lg: '16px',
-                    xl: '16px',
+                typography: {
+                    xs: 'body1',
+                    sm: 'body1',
+                    md: 'body1',
+                    lg: 'body1',
+                    xl: 'body1',
                 },
 
             }}
@@ -82,14 +82,14 @@ function FootContent({ content }) {
             color='text.secondary'
             align="center"
             sx={{
-                fontSize: {
+                typography: {
                     xs: '20px',
                     sm: '24px',
                     md: '24px',
                     lg: '30px',
                     xl: '30px',
                 },
-                fontWeight:500,
+
                 mt:15
             }}
         >

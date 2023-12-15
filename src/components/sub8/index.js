@@ -30,16 +30,16 @@ export default function SubEight() {
                     <Typography align='center' sx={{ mt: 15 }}>
                         <img src={Sub8Image} alt='' width='50%'></img>
                     </Typography>
-                    <Typography variant="h2" align='center'
+                    <Typography align='center'
                         sx={{
-                            fontSize: {
-                                xs: '26px',
-                                sm: '32px',
-                                md: '32px',
-                                lg: '50px',
-                                xl: '64px',
+                            typography: {
+                                xs:'h5',
+                                sm:'h4',
+                                md:'h4',
+                                lg:'h3',
+                                xl:'h2',
                             },
-                            fontWeight: 900
+
                         }}
                     >
                         Build stunning forms for free
@@ -47,11 +47,11 @@ export default function SubEight() {
                     <Typography variant="h5" align='center' color='text.secondary'
                         sx={{
                             fontSize: {
-                                xs: '16px',
-                                sm: '16px',
-                                md: '16px',
-                                lg: '22px',
-                                xl: '22px',
+                                xs: 'body1',
+                                sm: 'body1',
+                                md: 'body1',
+                                lg: 'h5',
+                                xl: 'h5',
                             },
                         }}
                     >

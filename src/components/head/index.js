@@ -27,14 +27,14 @@ export default function Head() {
             }
             <Typography variant="h2" gutterBottom align="center" 
             sx={{
-                fontSize:{
-                    xs:'26px',
-                    sm:'32px',
-                    md:'32px',
-                    lg:'50px',
-                    xl:'64px',
+                typography:{
+                    xs:'h5',
+                    sm:'h4',
+                    md:'h4',
+                    lg:'h3',
+                    xl:'h2',
                 },
-                fontWeight:900
+
             }}
             >
                 The simplest way to create forms
@@ -45,12 +45,12 @@ export default function Head() {
                     <Typography variant="h6"
                         align="center"
                         sx={{
-                            fontSize:{
-                                xs:'16px',
-                                sm:'16px',
-                                md:'16px',
-                                lg:'22px',
-                                xl:'22px',
+                            typography:{
+                                xs:'h6',
+                                sm:'h6',
+                                md:'h6',
+                                lg:'h5',
+                                xl:'h5',
                             },
                         }}
                     >
