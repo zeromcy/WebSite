@@ -98,10 +98,11 @@ export default function SubFive() {
                                     </Grid>
 
 
-
-                                    <SubTitle2
-                                        content={' Popup'}>
-                                    </SubTitle2>
+                                    <Grid item sm={12} xs={12}>
+                                        <SubTitle2
+                                            content={' Popup'}>
+                                        </SubTitle2>
+                                    </Grid>
                                     <Sub2Content
                                         content={'Create an eye-catching popup form for your website in seconds.'}>
                                     </Sub2Content>
@@ -117,10 +118,11 @@ export default function SubFive() {
                                     </Grid>
 
 
-
-                                    <SubTitle2
-                                        content={' Tally links'}>
-                                    </SubTitle2>
+                                    <Grid item sm={12} xs={12}>
+                                        <SubTitle2
+                                            content={' Tally links'}>
+                                        </SubTitle2>
+                                    </Grid>
                                     <Sub2Content
                                         content={'Share your unique Tally form link with anyone.'}>
                                     </Sub2Content>
@@ -136,10 +138,11 @@ export default function SubFive() {
                                     </Grid>
 
 
-
-                                    <SubTitle2
-                                        content={'Custom domains'}>
-                                    </SubTitle2>
+                                    <Grid item sm={12} xs={12}>
+                                        <SubTitle2
+                                            content={'Custom domains'}>
+                                        </SubTitle2>
+                                    </Grid>
                                     <Sub2Content
                                         content={'Host forms on your own (sub)domain to create branded form links.'}>
                                     </Sub2Content>
