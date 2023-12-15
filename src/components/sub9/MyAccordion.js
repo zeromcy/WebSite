@@ -1,10 +1,10 @@
-import * as React from 'react';
-import { styled } from '@mui/material/styles';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import MuiAccordion from '@mui/material/Accordion';
-import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
+import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
+import { styled } from '@mui/material/styles';
+import * as React from 'react';
 
 const Accordion = styled((props) => (
     <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -25,7 +25,7 @@ const AccordionSummary = styled((props) => (
         {...props}
     />
 ))(({ theme }) => ({
-    flexDirection: 'row-reverse',
+    // flexDirection: 'row-reverse',
     '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
         transform: 'rotate(90deg)',
     },
@@ -39,15 +39,9 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function CustomizedAccordions() {
-    const [expanded, setExpanded] = React.useState('');
-
-    const handleChange = (panel) => (event, newExpanded) => {
-        setExpanded(newExpanded ? panel : false);
-    };
-
     return (
         <div>
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+            <Accordion>
                 <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
                     <Typography>Is Tally really free?</Typography>
                 </AccordionSummary>
@@ -57,7 +51,7 @@ export default function CustomizedAccordions() {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+            <Accordion>
                 <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
                     <Typography>Is Tally GDPR compliant?</Typography>
                 </AccordionSummary>
@@ -68,7 +62,7 @@ export default function CustomizedAccordions() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+            <Accordion>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                     <Typography>How does Tally compare to Typeform?</Typography>
                 </AccordionSummary>
@@ -82,7 +76,7 @@ export default function CustomizedAccordions() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+            <Accordion>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                     <Typography>Who is behind Tally?
                     </Typography>
@@ -94,7 +88,7 @@ export default function CustomizedAccordions() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+            <Accordion>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                     <Typography>How can I join the Tally community?</Typography>
                 </AccordionSummary>
