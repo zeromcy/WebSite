@@ -25,7 +25,18 @@ export default function Head() {
                     </Typography>
 
             }
-            <Typography variant="h2" gutterBottom align="center">
+            <Typography variant="h2" gutterBottom align="center" 
+            sx={{
+                fontSize:{
+                    xs:'26px',
+                    sm:'32px',
+                    md:'32px',
+                    lg:'50px',
+                    xl:'64px',
+                },
+                fontWeight:900
+            }}
+            >
                 The simplest way to create forms
             </Typography>
             <Grid container
@@ -34,7 +45,14 @@ export default function Head() {
                     <Typography variant="h6"
                         align="center"
                         sx={{
-                            maxWidth: '600px'
+
+                            fontSize:{
+                                xs:'16px',
+                                sm:'16px',
+                                md:'16px',
+                                lg:'22px',
+                                xl:'22px',
+                            },
                         }}
                     >
                         The simplest way to create formsSay goodbye to boring forms. Meet Tally — the free, intuitive form builder you’ve been looking for.
