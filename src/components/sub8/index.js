@@ -59,7 +59,7 @@ export default function SubEight() {
                     </Typography>
 
                     <Typography align='center' sx={{ mt: 5 }}>
-                        <StyledButton className='btn' variant="contained">Create a free form</StyledButton>
+                        <StyledButton className='btn' variant="contained" size='large'>Create a free form</StyledButton>
                     </Typography>
 
                    
