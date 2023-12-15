@@ -28,69 +28,68 @@ function App() {
       <AppBar />
 
       {/* container */}
-      <Container maxWidth='lg'>
-        <Grid container>
-          {/* left image */}
-          <Grid item sm={2} xs={2}>
-            {
-              match ?
-                <div>
-                  <img src={LeftImage} alt='' width='301' height='1160' className='left_' />
-                </div>
-                :
-                null
-            }
-          </Grid>
-
-          <Grid item sm={8} xs={8}>
-            <Container maxWidth='lg'
-              sx={{ mt: 15 }}
-            >
-              {/* Header */}
-              <Head />
-
-              {/* sub1 */}
-              <SubOne />
-
-              {/* sub2 */}
-              <SubTwo />
-
-              {/* sub3 */}
-              <SubThree />
-
-              {/* sub4 */}
-              <SubFour />
-
-              {/* sub5 */}
-              <SubFive />
-
-              {/* sub6 */}
-              <SubSix />
-
-              {/* sub7 */}
-              <SubSeven />
-
-              {/* sub8 */}
-              <SubEight />
-
-              {/* sub9 */}
-              <SubNine />
-            </Container>
-          </Grid>
-
-          <Grid item sm={2} xs={2}>
-            {/* right image */}
-            {
-              match ?
-                <div>
-                  <img src={RightImage} alt='' width='301' height='1160' className='right' />
-                </div>
-                :
-                null
-            }
-          </Grid>
+      <Grid container>
+        {/* left image */}
+        <Grid item sm={0} xs={0} md={1}>
+          {
+            match ?
+              <div>
+                <img src={LeftImage} alt='' width='301' height='1160' className='left_' />
+              </div>
+              :
+              null
+          }
         </Grid>
-      </Container>
+
+        <Grid item sm={12} xs={12} md={10}>
+          <Container maxWidth='lg'
+            sx={{ mt: 15 }}
+          >
+            {/* Header */}
+            <Head />
+
+            {/* sub1 */}
+            <SubOne />
+
+            {/* sub2 */}
+            <SubTwo />
+
+            {/* sub3 */}
+            <SubThree />
+
+            {/* sub4 */}
+            <SubFour />
+
+            {/* sub5 */}
+            <SubFive />
+
+            {/* sub6 */}
+            <SubSix />
+
+            {/* sub7 */}
+            <SubSeven />
+
+            {/* sub8 */}
+            <SubEight />
+
+            {/* sub9 */}
+            <SubNine />
+          </Container>
+        </Grid>
+
+        <Grid item sm={0} xs={0} md={1}>
+          {/* right image */}
+          {
+            match ?
+              <div>
+                <img src={RightImage} alt='' width='301' height='1160' className='right' />
+              </div>
+              :
+              null
+          }
+        </Grid>
+      </Grid>
+
 
 
 
