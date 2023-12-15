@@ -22,7 +22,7 @@ export default function SubThree() {
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={6} xs={6}>
+                <Grid item sm={6} xs={12}>
                     <Typography variant='h3' sx={{ pt: 15 }}>
                         Craft intelligent forms
                     </Typography>
@@ -30,7 +30,7 @@ export default function SubThree() {
                         Our smart features make it easy to turn your forms into a tailored experience for every respondent.
                     </Typography>
                 </Grid>
-                <Grid item sm={6} xs={6}
+                <Grid item sm={6} xs={0}
                     sx={{
                         alignSelf: 'end'
                     }}

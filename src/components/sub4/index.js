@@ -23,7 +23,7 @@ export default function SubFour() {
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={6} xs={6}>
+                <Grid item sm={6} xs={12}>
                     <Typography variant='h3' sx={{ pt: 15 }}>
                         Make forms uniquely yours
                     </Typography>
@@ -32,7 +32,7 @@ export default function SubFour() {
                     </Typography>
                 </Grid>
 
-                <Grid item sm={6} xs={6}
+                <Grid item sm={6} xs={0}
                     sx={{
                         alignSelf: 'end'
                     }}

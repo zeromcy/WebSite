@@ -18,7 +18,7 @@ export default function SubSeven() {
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={7} xs={7}>
+                <Grid item sm={7} xs={12}>
                     <Typography variant='h3' sx={{ pt: 15 }}>
                         Designed for you
                     </Typography>
@@ -27,7 +27,7 @@ export default function SubSeven() {
                     </Typography>
                 </Grid>
 
-                <Grid item sm={5} xs={5}
+                <Grid item sm={5} xs={0}
                     sx={{
                         alignSelf: 'end'
                     }}

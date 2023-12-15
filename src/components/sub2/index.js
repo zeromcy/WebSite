@@ -27,10 +27,11 @@ export default function SubTwo() {
     const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9]
     const theme = useTheme();
     const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
+
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={6} xs={6}>
+                <Grid item sm={6} xs={12}>
                     <Typography variant='h3' sx={{ pt: 15 }}>
                         Simple but powerful
                     </Typography>
@@ -39,7 +40,7 @@ export default function SubTwo() {
                     </Typography>
                 </Grid>
 
-                <Grid item sm={6} xs={6}
+                <Grid item sm={6} xs={0}
                     sx={{
                         alignSelf: 'end',
                     }}

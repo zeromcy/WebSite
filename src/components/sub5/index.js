@@ -19,7 +19,7 @@ export default function SubFive() {
     return (
         <>
             <Grid container spacing={3}>
-                <Grid item sm={7} xs={7}>
+                <Grid item sm={7} xs={12}>
                     <Typography variant='h3' sx={{ pt: 15 }}>
                         Share with your audience
                     </Typography>
@@ -28,7 +28,7 @@ export default function SubFive() {
                     </Typography>
                 </Grid>
 
-                <Grid item sm={5} xs={5}
+                <Grid item sm={5} xs={0}
                     sx={{
                         alignSelf: 'end'
                     }}
