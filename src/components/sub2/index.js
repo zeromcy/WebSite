@@ -58,7 +58,7 @@ export default function SubTwo() {
 
                         {
                             match ?
-                                <img src={Sub2BackImage} alt='' width="220" height='148'
+                                <img src={Sub2BackImage} alt='' width="320" height='237'
                                     sx={{
                                         color: 'transparent',
                                     }}>
