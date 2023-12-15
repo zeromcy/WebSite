@@ -10,8 +10,7 @@ import headVideo from '../../video/head.mp4'
 import { CircleIcon } from "./circleIcon";
 import { useTheme, useMediaQuery } from '@mui/material'
 import FacePhoneImage from '../../image/faces-mobile.png'
-import LeftImage from '../../image/faces-left.png'
-import RightImage from '../../image/faces-right.png'
+
 
 export default function Head() {
     const theme = useTheme()
@@ -56,7 +55,7 @@ export default function Head() {
                 mb: 5
             }}>
                 
-                <Paper elevation={3} width='100%'>
+                <Paper elevation={3} >
                     <Toolbar
                         sx={{
                             '&': {
@@ -75,7 +74,7 @@ export default function Head() {
             <Grid container
                 spacing={3}
                 sx={{
-                    justifyContent: 'center'
+                    justifyContent: {md:'flex-start',xs:'center',sm:'center'}
                 }}>
 
                 <FootIcon url={NotionImage} mt={2} />

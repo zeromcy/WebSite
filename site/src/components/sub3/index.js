@@ -80,7 +80,7 @@ export default function SubThree() {
                             <CircleIcon />
                         </Toolbar>
                         <Divider />
-                        <img src={InputImage} alt="" width="100%" height='645'></img>
+                        <img src={InputImage} alt="" width="100%" height='100%'></img>
                     </Paper>
                 </Grid>
             </Paper>
