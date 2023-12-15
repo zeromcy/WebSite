@@ -54,7 +54,7 @@ export default function SubSeven() {
 
             <Paper sx={{ height: '100%' }} elevation={3}>
                 <Grid container sx={{ py: 1, px: 1 }}>
-                    <Grid item sm={4}>
+                    <Grid item sm={4} xs={12}>
                         <Typography>
                             <GrassOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
@@ -79,7 +79,7 @@ export default function SubSeven() {
                             </ListItem>
                         </List>
                     </Grid>
-                    <Grid item sm={4}>
+                    <Grid item sm={4} xs={12}>
                         <Typography>
                             <HourglassEmptyOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
@@ -104,7 +104,7 @@ export default function SubSeven() {
                             </ListItem>
                         </List>
                     </Grid>
-                    <Grid item sm={4}>
+                    <Grid item sm={4} xs={12}>
                         <Typography>
                             <AutoAwesomeOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
@@ -131,7 +131,7 @@ export default function SubSeven() {
                     </Grid>
                 </Grid>
                 <Grid container sx={{ py: 1, px: 1 }}>
-                    <Grid item sm={4}>
+                    <Grid item sm={4} xs={12}>
                         <Typography>
                             <ContactMailOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
@@ -156,7 +156,7 @@ export default function SubSeven() {
                             </ListItem>
                         </List>
                     </Grid>
-                    <Grid item sm={4}>
+                    <Grid item sm={4} xs={12}>
                         <Typography>
                             <ApartmentOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
@@ -181,7 +181,7 @@ export default function SubSeven() {
                             </ListItem>
                         </List>
                     </Grid>
-                    <Grid item sm={4}>
+                    <Grid item sm={4} xs={12}>
                         <Typography>
                             <SentimentSatisfiedOutlinedIcon sx={{ pt: 2 }} color='secondary' />
                         </Typography>
