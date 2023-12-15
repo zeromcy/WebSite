@@ -5,7 +5,7 @@ import BrandingWatermarkOutlinedIcon from '@mui/icons-material/BrandingWatermark
 import AttachFileOutlinedIcon from '@mui/icons-material/AttachFileOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined';
-import { Grid, Paper, Typography, Toolbar, Divider } from "@mui/material"
+import { Grid, Paper,  Toolbar, Divider } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
 import Sub5BackImage from '../../image/paper-plane.png'

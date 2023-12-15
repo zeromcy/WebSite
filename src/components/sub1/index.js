@@ -41,7 +41,7 @@ export default function SubOne() {
                                 </Sub2Content>
                             </Grid>
                         </Grid>
-                        <video playsinline="" autoplay="" muted="" loop="" width="100%" src={Sub1Video}></video>
+                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%" src={Sub1Video}></video>
 
                     </Paper>
                 </Grid>
