@@ -1,21 +1,18 @@
 import * as React from 'react'
-import img1 from '../../image/customize.png'
-import img2 from '../../image/dive-in.png'
+
 import { Paper, Toolbar, Divider } from "@mui/material"
 import { CircleIcon } from '../head/circleIcon'
 
 
-export default function MyCarousel({ type }) {
+export default function MyCarousel({ type,images }) {
 
-    const [nowSrc, setNowSrc] = React.useState(img1);
-    const images = [img1, img2]
+    const [nowSrc, setNowSrc] = React.useState(images[0]);
     const [index, setIndex] = React.useState(0);
 
     React.useEffect(() => {
         const timer = setInterval(() => {
             setIndex(index + 1);
             setNowSrc(images[index])
-            console.log(`image:${nowSrc}`)
 
             if (index >= images.length - 1) {
                 setIndex(0);
@@ -30,7 +27,12 @@ export default function MyCarousel({ type }) {
         <Paper
             elevation={2}
             sx={
-                type === 'left' ? { ml: '20%' } : { mx: '5%' }}
+                type === 'left' ?
+                    {
+                        ml: '20%',
+
+                    } :
+                    { mx: '5%' }}
         >
             <Toolbar
                 sx={{
@@ -43,8 +45,7 @@ export default function MyCarousel({ type }) {
                 <CircleIcon />
             </Toolbar>
             <Divider />
-
-            <img src={nowSrc} alt='' width='100%' height='400px' />
+            <img src={nowSrc} alt='' width='100%' height='600px' />
         </Paper>
 
     )

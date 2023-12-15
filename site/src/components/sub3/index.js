@@ -68,7 +68,7 @@ export default function SubThree() {
                     </Typography>
                 </Grid>
                 <Grid item >
-                    <Paper elevation={2} sx={{ m: '5%' }}>
+                    <Paper elevation={2} sx={{ mx: '5%' }}>
                         <Toolbar
                             sx={{
                                 '&': {
@@ -80,7 +80,7 @@ export default function SubThree() {
                             <CircleIcon />
                         </Toolbar>
                         <Divider />
-                        <img src={InputImage} alt="" width="100%" height='400'></img>
+                        <img src={InputImage} alt="" width="100%" height='645'></img>
                     </Paper>
                 </Grid>
             </Paper>

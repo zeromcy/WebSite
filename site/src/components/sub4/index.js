@@ -6,13 +6,18 @@ import CodeIcon from '@mui/icons-material/Code';
 import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
 import { Grid, Paper, Typography } from "@mui/material"
 import '../../css/img.css'
-import InputImage from '../../image/input-badges.png'
 import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
 import Sub4BackImage from '../../image/customize.png'
 import { useMediaQuery, useTheme } from '@mui/material';
 import MyCarousel from '../commom/carousel';
+import img1 from '../../image/customization-1.png'
+import img2 from '../../image/customization-2.png'
+import img3 from '../../image/customization-3.png'
+import img4 from '../../image/customization-4.png'
+import img5 from '../../image/customization-5.png'
 
 export default function SubFour() {
+    const images = [img1,img2,img3,img4,img5]
     const theme = useTheme();
     const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
     return (
@@ -67,7 +72,7 @@ export default function SubFour() {
                 </Grid>
 
                 <Grid item>
-                    <MyCarousel type='center' />
+                    <MyCarousel type='center' images={images}/>
                 </Grid>
                 {/* <img src={InputImage} alt="" width="100%" height='300'></img> */}
             </Paper>

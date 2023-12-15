@@ -1,5 +1,5 @@
 import StyledButton from "../commom/MyButton"
-import { Typography, Grid,  Paper, Divider, Toolbar } from "@mui/material";
+import { Typography, Grid, Paper, Divider, Toolbar } from "@mui/material";
 import NotionImage from '../../image/notion.png'
 import BuyImage from '../../image/buy-me-a-coffee.png'
 import MakeImage from '../../image/make.png'
@@ -8,12 +8,24 @@ import GlovoImage from '../../image/glovo.png'
 import FootIcon from "./footIcon";
 import headVideo from '../../video/head.mp4'
 import { CircleIcon } from "./circleIcon";
-
+import { useTheme, useMediaQuery } from '@mui/material'
+import FacePhoneImage from '../../image/faces-mobile.png'
+import LeftImage from '../../image/faces-left.png'
+import RightImage from '../../image/faces-right.png'
 
 export default function Head() {
-
+    const theme = useTheme()
+    const match = useMediaQuery(theme.breakpoints.up('md'))
     return (
         <>
+            {
+                match ?
+                    null :
+                    <Typography align="center">
+                        <img src={FacePhoneImage} alt='' width='683' height='223' />
+                    </Typography>
+
+            }
             <Typography variant="h2" gutterBottom align="center">
                 The simplest way to create forms
             </Typography>
@@ -40,37 +52,38 @@ export default function Head() {
             </Grid>
 
             <Grid container sx={{
-                justifyContent: 'center',
-                mb:5
+                // justifyContent: 'center',
+                mb: 5
             }}>
+                
                 <Paper elevation={3} width='100%'>
-                <Toolbar 
-                sx={{
-                    '&':{
-                        minHeight:'48px'
-                    }
-                }}>
-                    <CircleIcon/>
-                    <CircleIcon/>
-                    <CircleIcon/>
-                </Toolbar>
-                <Divider />
+                    <Toolbar
+                        sx={{
+                            '&': {
+                                minHeight: '48px'
+                            }
+                        }}>
+                        <CircleIcon />
+                        <CircleIcon />
+                        <CircleIcon />
+                    </Toolbar>
+                    <Divider />
                     <video playsinline="" autoplay="" muted="" loop="" width="100%" src={headVideo}></video>
                 </Paper>
             </Grid>
 
-            <Grid container 
-            spacing={3}
-            sx={{
-                justifyContent:'center'
-            }}>
-                
-                <FootIcon url={NotionImage} mt={2}/>
-                <FootIcon url={BuyImage} mt={3.5}/>
-                <FootIcon url={MakeImage} mt={3.5}/>
-                <FootIcon url={GlovoImage} mt={2}/>
-                <FootIcon url={RakutenImage} mt={3}/>
-                
+            <Grid container
+                spacing={3}
+                sx={{
+                    justifyContent: 'center'
+                }}>
+
+                <FootIcon url={NotionImage} mt={2} />
+                <FootIcon url={BuyImage} mt={3.5} />
+                <FootIcon url={MakeImage} mt={3.5} />
+                <FootIcon url={GlovoImage} mt={2} />
+                <FootIcon url={RakutenImage} mt={3} />
+
 
             </Grid>
         </>

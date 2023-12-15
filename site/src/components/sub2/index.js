@@ -11,9 +11,20 @@ import BuildIcon from './build';
 import Sub2BackImage from '../../image/click-plus.png'
 import { useMediaQuery, useTheme } from '@mui/material';
 import MyCarousel from '../commom/carousel';
+import img1 from '../../image/inputs-1.png'
+import img2 from '../../image/inputs-2.png'
+import img3 from '../../image/inputs-3.png'
+import img4 from '../../image/inputs-4.png'
+import img5 from '../../image/inputs-5.png'
+import img6 from '../../image/inputs-6.png'
+import img7 from '../../image/inputs-7.png'
+import img8 from '../../image/inputs-8.png'
+import img9 from '../../image/inputs-9.png'
+
 
 
 export default function SubTwo() {
+    const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9]
     const theme = useTheme();
     const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
     return (
@@ -77,7 +88,7 @@ export default function SubTwo() {
                         width: '100%',
                         backgroundImage: `url(${InputImage})`,
                     }}>
-                    <MyCarousel type='left' />
+                    <MyCarousel type='left' images={images}/>
                 </Grid>
 
             </Paper>
