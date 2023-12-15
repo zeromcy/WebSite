@@ -50,7 +50,7 @@ export default function SubSeven() {
             </Grid>
 
             <Paper sx={{ height: '100%' }} elevation={3}>
-                <Grid container sx={{ py: 3,px: 5 }}>
+                <Grid container sx={{ py: 1,px: 1 }}>
                     <Grid item sm={4}>
                         <Typography>
                             <GrassOutlinedIcon sx={{ pt: 2 }} color='secondary' />
@@ -127,7 +127,7 @@ export default function SubSeven() {
                         </List>
                     </Grid>
                 </Grid>
-                <Grid container sx={{ py: 3, px: 5 }}>
+                <Grid container sx={{ py: 1, px: 1 }}>
                     <Grid item sm={4}>
                         <Typography>
                             <ContactMailOutlinedIcon sx={{ pt: 2 }} color='secondary' />

@@ -67,7 +67,7 @@ export default function Head() {
                         <CircleIcon />
                     </Toolbar>
                     <Divider />
-                    <video playsinline="" autoplay="" muted="" loop="" width="100%" src={headVideo}></video>
+                    <video playsinline="" autoplay="" muted="" loop="" width="100%"  src={headVideo}></video>
                 </Paper>
             </Grid>
 

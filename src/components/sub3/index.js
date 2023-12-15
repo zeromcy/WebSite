@@ -7,7 +7,7 @@ import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import Sub1Image from '../../image/smart-3.png'
 import Encryption from '../../image/encryption.png'
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import { Grid, Paper, Typography,Toolbar,Divider } from "@mui/material"
+import { Grid, Paper, Typography, Toolbar, Divider } from "@mui/material"
 import { CircleIcon } from '../head/circleIcon';
 import '../../css/img.css'
 import InputImage from '../../image/smart-3.png'
@@ -55,17 +55,19 @@ export default function SubThree() {
             </Grid>
 
             <Paper elevation={2} sx={{ width: '100%' }}>
-                <Grid container sx={{ p: 3 }}>
+                <Grid container sx={{ p: 1 }}>
                     <Grid item sm={12} xs={12} sx={{ py: 1 }}>
                         <LogicIcon />
                     </Grid>
+                    <Grid item sm={12} xs={12}>
 
-                    <Typography variant="h4" >
-                        Craft intelligent formsConditional logic
-                    </Typography>
-                    <Typography variant="h6" sx={{ pt: 2 }}>
-                        Build dynamic forms that adapt based on prior inputs or external data. Show and hide blocks, insert branching, or calculate values to create a personalized form experience.
-                    </Typography>
+                        <Typography variant="h4" >
+                            Conditional logic
+                        </Typography>
+                        <Typography variant="h6" sx={{ pt: 2 }}>
+                            Build dynamic forms that adapt based on prior inputs or external data. Show and hide blocks, insert branching, or calculate values to create a personalized form experience.
+                        </Typography>
+                    </Grid>
                 </Grid>
                 <Grid item >
                     <Paper elevation={2} sx={{ mx: '5%' }}>

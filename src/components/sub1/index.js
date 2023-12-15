@@ -17,7 +17,7 @@ export default function SubOne() {
             </Typography>
 
             <Paper elevation={2} sx={{ width: '100%' }}>
-                <Grid container sx={{ p: 2 }}>
+                <Grid container sx={{ p: 1 }}>
 
                     <Typography variant="h4" sx={{ mt: 1 }}>
                         Unlimited forms and submissions for free
@@ -33,7 +33,7 @@ export default function SubOne() {
             <Grid container spacing={3} sx={{ pt: 2 }}>
                 <Grid item sm={7}>
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
-                        <Grid container sx={{ px: 5 }}>
+                        <Grid container sx={{ px: 1 }}>
                             <Grid item sm={12} xs={12}>
                                 <KeyboardCommandKeyIcon sx={{ py: 1 }} color="secondary" />
                             </Grid>
@@ -54,7 +54,7 @@ export default function SubOne() {
                 </Grid>
                 <Grid item sm={5} xs={12}>
                     <Paper elevation={2} sx={{ height: '100%' }}>
-                        <Grid container sx={{ px: 3 }}>
+                        <Grid container sx={{ px: 1 }}>
                             <Grid item sm={12} xs={12}>
                                 <LockIcon sx={{ py: 1 }} color="secondary" />
                             </Grid>

@@ -55,7 +55,7 @@ export default function SubFive() {
             <Grid container spacing={3}>
                 <Grid item sm={7} xs={12}>
                     <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
-                        <Grid container sx={{ p: 3 }}>
+                        <Grid container sx={{ p: 1 }}>
                             <Grid item sm={12} xs={12} sx={{ py: 1 }}>
                                 <SpaceDashboardOutlinedIcon color="secondary" />
                             </Grid>
@@ -87,7 +87,7 @@ export default function SubFive() {
                     <Grid container sx={{ py: 3 }} >
                         <Grid item sm={12} sx={{ pb: 3 }}>
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
-                                <Grid container sx={{ p: 2 }}>
+                                <Grid container sx={{ p: 1 }}>
                                     <Grid item sm={12} xs={12} sx={{ py: 2 }}>
                                         <BrandingWatermarkOutlinedIcon color="secondary" />
                                     </Grid>
@@ -104,7 +104,7 @@ export default function SubFive() {
                         </Grid>
                         <Grid item sm={12} sx={{ py: 3 }}>
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
-                                <Grid container sx={{ p: 2 }}>
+                                <Grid container sx={{ p: 1 }}>
                                     <Grid item sm={12} xs={12} sx={{ py: 2 }}>
                                         <AttachFileOutlinedIcon color="secondary" />
                                     </Grid>
@@ -122,7 +122,7 @@ export default function SubFive() {
                         </Grid>
                         <Grid item sm={12} sx={{ py: 3 }}>
                             <Paper elevation={2} sx={{ width: '100%', height: '100%' }}>
-                                <Grid container sx={{ p: 2 }}>
+                                <Grid container sx={{ p: 1 }}>
                                     <Grid item sm={12} xs={12} sx={{ py: 2 }}>
                                         <LanguageOutlinedIcon color="secondary" />
                                     </Grid>

@@ -70,7 +70,7 @@ export default function SubTwo() {
             </Grid>
 
             <Paper elevation={2} sx={{ width: '100%' }}>
-                <Grid container sx={{ p: 3 }}>
+                <Grid container sx={{ p: 1 }}>
                     <Grid item sm={12} xs={12} sx={{ py: 1 }}>
                         <BuildIcon />
                     </Grid>
