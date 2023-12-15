@@ -47,7 +47,7 @@ export default function Head() {
                     justifyContent: 'center',
                     my: 10
                 }}>
-                <StyledButton variant="contained" className="btn">Create free form</StyledButton>
+                <StyledButton variant="contained" className="btn" size='large'>Create free form</StyledButton>
             </Grid>
 
             <Grid container sx={{
