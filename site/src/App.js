@@ -12,7 +12,7 @@ import SubSix from './components/sub6';
 import SubSeven from './components/sub7';
 import SubEight from './components/sub8';
 import SubNine from './components/sub9';
-import { createTheme, ThemeProvider } from '@mui/material';
+import { createTheme, Grid, ThemeProvider, useMediaQuery } from '@mui/material';
 import LeftImage from './image/faces-left.png'
 import RightImage from './image/faces-right.png'
 import './css/leftRifht.css'
@@ -20,6 +20,7 @@ import './css/leftRifht.css'
 
 function App() {
   const theme = createTheme();
+  const match = useMediaQuery(theme.breakpoints.up('lg'))
   return (
     <ThemeProvider theme={theme}>
 
@@ -27,47 +28,71 @@ function App() {
       <AppBar />
 
       {/* container */}
-      <div>
-        <img src={LeftImage} alt='' width='301' height='1160' className='left' />
-      </div>
+      <Grid container>
+        {/* left image */}
+        <Grid item sm={2} xs={2}>
+          {
+            match ?
+              <div>
+                <img src={LeftImage} alt='' width='301' height='1160' className='left' />
+              </div>
+              :
+              null
+          }
+        </Grid>
 
-      <Container maxWidth='lg'
-        sx={{ mt: 15 }}
-      >
-        {/* Header */}
-        <Head />
+        <Grid item sm={8} xs={8}>
+          <Container maxWidth='lg'
+            sx={{ mt: 15 }}
+          >
+            {/* Header */}
+            <Head />
 
-        {/* sub1 */}
-        <SubOne />
+            {/* sub1 */}
+            <SubOne />
 
-        {/* sub2 */}
-        <SubTwo />
+            {/* sub2 */}
+            <SubTwo />
 
-        {/* sub3 */}
-        <SubThree />
+            {/* sub3 */}
+            <SubThree />
 
-        {/* sub4 */}
-        <SubFour />
+            {/* sub4 */}
+            <SubFour />
 
-        {/* sub5 */}
-        <SubFive />
+            {/* sub5 */}
+            <SubFive />
 
-        {/* sub6 */}
-        <SubSix />
+            {/* sub6 */}
+            <SubSix />
 
-        {/* sub7 */}
-        <SubSeven />
+            {/* sub7 */}
+            <SubSeven />
 
-        {/* sub8 */}
-        <SubEight />
+            {/* sub8 */}
+            <SubEight />
 
-        {/* sub9 */}
-        <SubNine />
-      </Container>
+            {/* sub9 */}
+            <SubNine />
+          </Container>
+        </Grid>
 
-      <div>
-        <img src={RightImage} alt='' width='301' height='1160' className='right' />
-      </div>
+        <Grid item sm={2} xs={2}>
+          {/* right image */}
+          {
+            match ?
+              <div>
+                <img src={RightImage} alt='' width='301' height='1160' className='right' />
+              </div>
+              :
+              null
+          }
+        </Grid>
+      </Grid>
+
+
+
+
 
       {/* foot */}
       <Container maxWidth='lg'

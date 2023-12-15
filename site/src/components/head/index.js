@@ -15,14 +15,14 @@ import RightImage from '../../image/faces-right.png'
 
 export default function Head() {
     const theme = useTheme()
-    const match = useMediaQuery(theme.breakpoints.up('md'))
+    const match = useMediaQuery(theme.breakpoints.up('lg'))
     return (
         <>
             {
                 match ?
                     null :
                     <Typography align="center">
-                        <img src={FacePhoneImage} alt='' width='683' height='223' />
+                        <img src={FacePhoneImage} alt='' width='100%' height='100%' />
                     </Typography>
 
             }
