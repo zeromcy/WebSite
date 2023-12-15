@@ -1,0 +1,15 @@
+.left{
+    position: absolute;
+    top: 60%;
+    left:5%;
+    user-select: none;
+    pointer-events: none;
+}
+
+.right{
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    user-select: none;
+    pointer-events: none;
+}

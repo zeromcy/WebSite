@@ -12,9 +12,10 @@ import SubSix from './components/sub6';
 import SubSeven from './components/sub7';
 import SubEight from './components/sub8';
 import SubNine from './components/sub9';
-import {  createTheme, ThemeProvider } from '@mui/material';
-
-
+import { createTheme, ThemeProvider } from '@mui/material';
+import LeftImage from './image/faces-left.png'
+import RightImage from './image/faces-right.png'
+import './css/leftRifht.css'
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
       <AppBar />
 
       {/* container */}
+      <div>
+        <img src={LeftImage} alt='' width='301' height='1160' className='left' />
+      </div>
+
       <Container maxWidth='lg'
         sx={{ mt: 15 }}
       >
@@ -59,6 +64,10 @@ function App() {
         {/* sub9 */}
         <SubNine />
       </Container>
+
+      <div>
+        <img src={RightImage} alt='' width='301' height='1160' className='right' />
+      </div>
 
       {/* foot */}
       <Container maxWidth='lg'
