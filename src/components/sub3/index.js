@@ -24,11 +24,12 @@ export default function SubThree() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={6} xs={12}>
-                    
+
                     <SubTitle1 content={'Craft intelligent forms'}></SubTitle1>
                     <Sub1Content content={'Our smart features make it easy to turn your forms into a tailored experience for every respondent.'}></Sub1Content>
                 </Grid>
                 <Grid item sm={6} xs={0}
+                    zIndex='-1'
                     sx={{
                         alignSelf: 'end'
                     }}
@@ -59,7 +60,7 @@ export default function SubThree() {
                     </Grid>
                     <Grid item sm={12} xs={12}>
 
-                        
+
                         <SubTitle2
                             content={'Conditional logic'}></SubTitle2>
                         <Sub2Content content={'Build dynamic forms that adapt based on prior inputs or external data. Show and hide blocks, insert branching, or calculate values to create a personalized form experience.'}
@@ -92,13 +93,13 @@ export default function SubThree() {
                                 <CalculatorIcon />
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                
+
                                 <SubTitle2
                                     content={'Calculator'}>
                                 </SubTitle2>
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                
+
                                 <Sub2Content
                                     content={'Use variables to create dynamic content and calculate values, scores, prices and more.'}>
                                 </Sub2Content>
@@ -114,13 +115,13 @@ export default function SubThree() {
                                 <VisibilityOffIcon sx={{ py: 1 }} color="secondary" />
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                
+
                                 <SubTitle2
                                     content={'Hidden fields'}>
                                 </SubTitle2>
                             </Grid>
                             <Grid item sm={12} xs={12}>
-                                
+
                                 <Sub2Content
                                     content={'Pass data to your form with URL parameters. Include UTM parameters or personal data for a customized experience.'}>
                                 </Sub2Content>
@@ -190,7 +191,7 @@ export default function SubThree() {
                 </Grid>
             </Grid>
 
-            
+
             <FootContent
                 content={'“Tally is doing to forms what Notion did to docs & sheets.”'}>
             </FootContent>

@@ -25,7 +25,7 @@ import { Sub1Content, Sub2Content, SubTitle1, SubTitle2 } from '../commom/myTypo
 
 
 export default function SubTwo() {
-    const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9]
+    const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9]
     const theme = useTheme();
     const match = useMediaQuery(theme.breakpoints.up('md')) ? true : false;
 
@@ -33,20 +33,21 @@ export default function SubTwo() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={6} xs={12}>
-                    <SubTitle1 
-                    content={
-                        "Simple but powerful"
-                    }
+                    <SubTitle1
+                        content={
+                            "Simple but powerful"
+                        }
                     >
                     </SubTitle1>
 
                     <Sub1Content
-                    content={"Advanced features packed in a simple form builder. It couldn’t be easier to create forms that convert."}>
+                        content={"Advanced features packed in a simple form builder. It couldn’t be easier to create forms that convert."}>
                     </Sub1Content>
-                    
+
                 </Grid>
 
                 <Grid item sm={6} xs={0}
+                    zIndex='-1'
                     sx={{
                         alignSelf: 'end',
                     }}
@@ -83,7 +84,7 @@ export default function SubTwo() {
                     </Grid>
                     <SubTitle2 content={"Build any form in seconds"}></SubTitle2>
                     <Sub2Content content={"Easily create online forms using our wide range of free input blocks. Collect contact info, files, signatures, payments, and much more. Build everything from surveys to quizzes to lead generation forms."}></Sub2Content>
-                    
+
                 </Grid>
 
                 <Grid item
@@ -91,7 +92,7 @@ export default function SubTwo() {
                         width: '100%',
                         backgroundImage: `url(${InputImage})`,
                     }}>
-                    <MyCarousel type='left' images={images}/>
+                    <MyCarousel type='left' images={images} />
                 </Grid>
 
             </Paper>

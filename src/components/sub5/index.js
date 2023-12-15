@@ -5,7 +5,7 @@ import BrandingWatermarkOutlinedIcon from '@mui/icons-material/BrandingWatermark
 import AttachFileOutlinedIcon from '@mui/icons-material/AttachFileOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined';
-import { Grid, Paper,  Toolbar, Divider } from "@mui/material"
+import { Grid, Paper, Toolbar, Divider } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/smart-1.png'
 import Sub5BackImage from '../../image/paper-plane.png'
@@ -32,6 +32,7 @@ export default function SubFive() {
                 </Grid>
 
                 <Grid item sm={5} xs={0}
+                    zIndex='-1'
                     sx={{
                         alignSelf: 'end'
                     }}

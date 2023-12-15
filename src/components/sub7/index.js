@@ -31,6 +31,7 @@ export default function SubSeven() {
                 </Grid>
 
                 <Grid item sm={5} xs={0}
+                    zIndex='-1'
                     sx={{
                         alignSelf: 'end'
                     }}
@@ -210,7 +211,7 @@ export default function SubSeven() {
             </Paper>
 
 
-            
+
             <FootContent
                 content={'“Non stop new features and amazing UX makes Tally my go-to form builder. I love using it!”'}>
             </FootContent>

@@ -34,6 +34,7 @@ export default function SubSix() {
                     </Sub1Content>
                 </Grid>
                 <Grid item sm={5} xs={0}
+                    zIndex='-1'
                     sx={{
                         alignSelf: 'end'
                     }}
@@ -168,7 +169,7 @@ export default function SubSix() {
 
             </Grid>
 
-            
+
             <FootContent
                 content={'“Can attest that Tally  Typeform hands down”'}>
             </FootContent>

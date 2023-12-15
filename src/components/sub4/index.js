@@ -25,7 +25,7 @@ export default function SubFour() {
         <>
             <Grid container spacing={3}>
                 <Grid item sm={6} xs={12}>
-                    
+
                     <SubTitle1
                         content={'Make forms uniquely yours'}>
                     </SubTitle1>
@@ -35,6 +35,7 @@ export default function SubFour() {
                 </Grid>
 
                 <Grid item sm={6} xs={0}
+                    zIndex='-1'
                     sx={{
                         alignSelf: 'end'
                     }}
@@ -64,12 +65,12 @@ export default function SubFour() {
                         <ColorLensOutlinedIcon color="secondary" />
                     </Grid>
                     <Grid item sm={12} xs={12}>
-                        
+
                         <SubTitle2
                             content={'Customize your form'}>
                         </SubTitle2>
                     </Grid>
-                    
+
                     <Sub2Content
                         content={'Use our pre-made themes or create your own design by customizing colors, fonts, buttons, and more.'}>
                     </Sub2Content>
@@ -78,7 +79,7 @@ export default function SubFour() {
                 <Grid item>
                     <MyCarousel type='center' images={images} />
                 </Grid>
-                
+
             </Paper>
 
             <Grid container spacing={3} sx={{ pt: 2 }}>
