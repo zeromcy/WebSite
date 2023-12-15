@@ -90,7 +90,7 @@ function FootContent({ content }) {
                     xl: 'h4',
                 },
 
-                mt:15
+                mt:5
             }}
         >
             {content}
