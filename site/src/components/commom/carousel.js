@@ -1,5 +1,5 @@
 import * as React from 'react'
-
+import '../../css/paper.css'
 import { Paper, Toolbar, Divider } from "@mui/material"
 import { CircleIcon } from '../head/circleIcon'
 
@@ -25,11 +25,12 @@ export default function MyCarousel({ type,images }) {
     return (
 
         <Paper
+            className='paper'
             elevation={2}
             sx={
                 type === 'left' ?
                     {
-                        ml: '20%',
+                        ml: '10%',
 
                     } :
                     { mx: '5%' }}
@@ -45,7 +46,7 @@ export default function MyCarousel({ type,images }) {
                 <CircleIcon />
             </Toolbar>
             <Divider />
-            <img src={nowSrc} alt='' width='100%' height='600px' />
+            <img src={nowSrc} alt='' width='554' height='387' />
         </Paper>
 
     )
