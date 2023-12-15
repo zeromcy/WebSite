@@ -212,7 +212,7 @@ export default function SubSeven() {
 
             
             <FootContent
-                content={'“Non stop new features and amazing UX makes Tally my go-to form builder. I love using it!”ƒ'}>
+                content={'“Non stop new features and amazing UX makes Tally my go-to form builder. I love using it!”'}>
             </FootContent>
         </>
     )
