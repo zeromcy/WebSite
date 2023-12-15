@@ -83,11 +83,11 @@ function FootContent({ content }) {
             align="center"
             sx={{
                 typography: {
-                    xs: '20px',
-                    sm: '24px',
-                    md: '24px',
-                    lg: '30px',
-                    xl: '30px',
+                    xs: 'h6',
+                    sm: 'h5',
+                    md: 'h5',
+                    lg: 'h4',
+                    xl: 'h4',
                 },
 
                 mt:15
