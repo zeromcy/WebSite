@@ -82,7 +82,7 @@ export default function CustomizedAccordions() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel3')}>
+            <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                     <Typography>Who is behind Tally?
                     </Typography>
@@ -94,7 +94,7 @@ export default function CustomizedAccordions() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel3')}>
+            <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
                 <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                     <Typography>How can I join the Tally community?</Typography>
                 </AccordionSummary>
