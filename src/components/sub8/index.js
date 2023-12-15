@@ -46,7 +46,7 @@ export default function SubEight() {
                     </Typography>
                     <Typography variant="h5" align='center' color='text.secondary'
                         sx={{
-                            fontSize: {
+                            typography: {
                                 xs: 'body1',
                                 sm: 'body1',
                                 md: 'body1',
