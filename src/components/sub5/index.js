@@ -1,9 +1,11 @@
+import '../../css/paper.css'
+import { CircleIcon } from "../head/circleIcon";
 import StyledButton from "../commom/MyButton"
 import BrandingWatermarkOutlinedIcon from '@mui/icons-material/BrandingWatermarkOutlined';
 import AttachFileOutlinedIcon from '@mui/icons-material/AttachFileOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined';
-import { Grid, Paper, Typography } from "@mui/material"
+import { Grid, Paper, Typography, Toolbar, Divider } from "@mui/material"
 import '../../css/img.css'
 import InputImage from '../../image/input-badges.png'
 import Sub5BackImage from '../../image/paper-plane.png'
@@ -61,11 +63,24 @@ export default function SubFive() {
                             <Typography variant="h4" >
                                 Embed
                             </Typography>
-                            <Typography variant="h6" sx={{ pt: 2}}>
+                            <Typography variant="h6" sx={{ pt: 2 }}>
                                 Seamlessly embed your forms into your website, landing page, or Notion. Whether you use WordPress, Webflow, Framer, or any other website builder, integrating Tally forms into your web pages is simple.
                             </Typography>
                         </Grid>
-                        <img src={InputImage} alt="" width="100%" height='300'></img>
+                        <Paper elevation={3} className='paper_1'>
+                            <Toolbar
+                                sx={{
+                                    '&': {
+                                        minHeight: '48px'
+                                    }
+                                }}>
+                                <CircleIcon />
+                                <CircleIcon />
+                                <CircleIcon />
+                            </Toolbar>
+                            <Divider />
+                            <img src={InputImage} alt="" width="100%" height='300'></img>
+                        </Paper>
                     </Paper>
                 </Grid>
                 <Grid item sm={5} xs={12}>
@@ -80,7 +95,7 @@ export default function SubFive() {
                                     <Typography variant="h4" >
                                         Popup
                                     </Typography>
-                                    <Typography variant="h6" sx={{ pt: 2}}>
+                                    <Typography variant="h6" sx={{ pt: 2 }}>
                                         Create an eye-catching popup form for your website in seconds.
                                     </Typography>
                                 </Grid>
@@ -115,7 +130,7 @@ export default function SubFive() {
                                     <Typography variant="h4" >
                                         Custom domains
                                     </Typography>
-                                    <Typography variant="h6" sx={{ pt: 2}}>
+                                    <Typography variant="h6" sx={{ pt: 2 }}>
                                         Host forms on your own (sub)domain to create branded form links.
                                     </Typography>
                                 </Grid>

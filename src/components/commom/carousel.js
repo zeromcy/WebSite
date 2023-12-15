@@ -46,7 +46,7 @@ export default function MyCarousel({ type,images }) {
                 <CircleIcon />
             </Toolbar>
             <Divider />
-            <img src={nowSrc} alt='' width='554' height='387' />
+            <img src={nowSrc} alt='' width='100%' height='100%' />
         </Paper>
 
     )
