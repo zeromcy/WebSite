@@ -26,10 +26,10 @@ function SubTitle2({ content }) {
         <Typography
             sx={{
                 typography: {
-                    xs: 'body1',
-                    sm: 'body1',
-                    md: 'body1',
-                    lg: 'body1',
+                    xs: 'h6',
+                    sm: 'h5',
+                    md: 'h5',
+                    lg: 'h5',
                     xl: 'h5',
                 },
 
