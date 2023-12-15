@@ -30,7 +30,7 @@ function App() {
       {/* container */}
       <Grid container>
         {/* left image */}
-        <Grid item sm={0} xs={0} md={1}>
+        <Grid item sx={{display:{md:'flex',sm:'none',xs:'none'}}} md={1} order={1}>
           {
             match ?
               <div>
@@ -41,7 +41,7 @@ function App() {
           }
         </Grid>
 
-        <Grid item sm={12} xs={12} md={10}>
+        <Grid item sm={12} xs={12} md={10} order={2}>
           <Container maxWidth='lg'
             sx={{ mt: 15 }}
           >
@@ -77,7 +77,7 @@ function App() {
           </Container>
         </Grid>
 
-        <Grid item sm={0} xs={0} md={1}>
+        <Grid item sx={{display:{md:'flex',sm:'none',xs:'none'}}} md={1} order={3}>
           {/* right image */}
           {
             match ?
