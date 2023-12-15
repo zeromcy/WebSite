@@ -1,0 +1,6 @@
+.left{
+    position: relative;
+    left:-200%;
+    user-select: none;
+    pointer-events: none;
+}
