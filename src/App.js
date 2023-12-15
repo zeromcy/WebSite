@@ -34,7 +34,7 @@ function App() {
           {
             match ?
               <div>
-                <img src={LeftImage} alt='' width='301' height='1160' className='left' />
+                <img src={LeftImage} alt='' width='301' height='1160' className='left_' />
               </div>
               :
               null
