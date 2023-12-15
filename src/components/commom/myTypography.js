@@ -33,7 +33,6 @@ function SubTitle2({ content }) {
                     xl: '22px',
                 },
                 fontWeight: 900,
-                mt:15
             }}
         >
             {content}
@@ -52,7 +51,7 @@ function Sub1Content({ content }) {
                     lg: '18px',
                     xl: '18px',
                 },
-
+                fontWeight:550
             }}
         >
             {content}
