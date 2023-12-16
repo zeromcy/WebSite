@@ -13,7 +13,11 @@ export default function SubOne() {
             <SubTitle1 content={'A form builder like no other'}></SubTitle1>
             <Sub1Content content={'Tally makes it simple for anyone to build free online forms. No need to code — just type your questions like you would in a doc.'}></Sub1Content>
 
-            <Paper elevation={2} sx={{ width: '100%' }}>
+            <Paper elevation={2}
+                sx={{
+                    width: '100%',
+                    boxShadow: 'rgb(248, 28, 229) 0px 0px 0px 2px, rgba(248, 28, 229, 0.36) 0px 0px 0px 4px'
+                }}>
                 <Grid container sx={{ p: 1 }}>
                     <SubTitle2 content={'Unlimited forms and submissions for free'}></SubTitle2>
                     <Sub2Content content={'Paywalls getting in the way of great forms? Here at Tally, we provide unlimited forms, submissions, and everything you need to create professional forms and surveys — all free of charge as long as you stay within our fair usage guidelines.'}></Sub2Content>
@@ -74,7 +78,7 @@ export default function SubOne() {
                     </Paper>
                 </Grid>
             </Grid>
-        
+
             <FootContent
                 content={'“Loving Tally! Not sure why I only started using it now, so good!”'}>
             </FootContent>
