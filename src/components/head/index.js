@@ -42,19 +42,19 @@ export default function Head() {
             <Grid container
                 sx={{ justifyContent: 'center' }}>
                 <Grid item>
-                    <Typography variant="h6"
+                    <Typography 
                         align="center"
                         sx={{
                             typography:{
-                                xs:'h6',
-                                sm:'h6',
+                                xs:'body1',
+                                sm:'body1',
                                 md:'h6',
                                 lg:'h5',
                                 xl:'h5',
                             },
                         }}
                     >
-                        The simplest way to create formsSay goodbye to boring forms. Meet Tally — the free, intuitive form builder you’ve been looking for.
+                        Say goodbye to boring forms. Meet Tally — the free, intuitive form builder you’ve been looking for.
                     </Typography>
                 </Grid>
             </Grid>
