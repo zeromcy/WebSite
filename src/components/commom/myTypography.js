@@ -13,7 +13,7 @@ function SubTitle1({ content }) {
                     xl: 'h4',
                 },
 
-                mt:15
+                mt: 15
             }}
         >
             {content}
@@ -51,7 +51,7 @@ function Sub1Content({ content }) {
                     lg: 'body1',
                     xl: 'h5',
                 },
-
+                mb: 1
             }}
         >
             {content}
@@ -90,7 +90,7 @@ function FootContent({ content }) {
                     xl: 'h4',
                 },
 
-                mt:5
+                mt: 5
             }}
         >
             {content}
