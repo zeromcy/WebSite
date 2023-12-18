@@ -6,6 +6,7 @@ import { createTheme, Grid, ThemeProvider, useMediaQuery } from '@mui/material';
 import './css/leftRifht.css'
 import { Home } from './components/home/home';
 import About from './components/aboutUs';
+import Cookie from './components/cookie';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* container */}
       <Grid container>
        {/* <Home /> */}
-       <About/>
+       {/* <About/> */}
+       <Cookie/>
       </Grid>
 
 
