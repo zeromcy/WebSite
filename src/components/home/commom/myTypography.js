@@ -39,6 +39,24 @@ function SubTitle2({ content }) {
         </Typography>
     )
 }
+function SubTitle3({ content }) {
+    return (
+        <Typography
+            sx={{
+                typography: {
+                    xs: 'h6',
+                    sm: 'h6',
+                    md: 'h6',
+                    lg: 'h6',
+                    xl: 'h6',
+                },
+
+            }}
+        >
+            {content}
+        </Typography>
+    )
+}
 
 function Sub1Content({ content }) {
     return (
@@ -98,4 +116,4 @@ function FootContent({ content }) {
     )
 }
 
-export { SubTitle1, SubTitle2, Sub1Content, Sub2Content, FootContent }
+export { SubTitle1, SubTitle2, Sub1Content, Sub2Content, FootContent,SubTitle3 }

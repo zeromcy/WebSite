@@ -8,6 +8,7 @@ import { Home } from './components/home/home';
 import About from './components/aboutUs';
 import Cookie from './components/cookie';
 import Policy from './components/policy';
+import Terms from './components/terms';
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
        {/* <Home /> */}
        {/* <About/> */}
        {/* <Cookie/> */}
-       <Policy/>
+       {/* <Policy/> */}
+       <Terms/>
       </Grid>
 
 
