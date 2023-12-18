@@ -113,7 +113,7 @@ export default function Footer() {
                         </StyledLink>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink href="http://192.168.100.251:8080">
+                        <StyledLink href="http://192.168.100.251:8080" target='_blank'>
                             Blog
                         </StyledLink>
                     </StyledTypography>
