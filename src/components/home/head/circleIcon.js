@@ -1,4 +1,4 @@
-import '../../css/circle.css'
+import '../../../css/circle.css'
 
 export function CircleIcon(){
     return(

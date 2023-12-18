@@ -1,11 +1,11 @@
 import { Typography, Grid, useTheme, useMediaQuery } from "@mui/material";
 import StyledButton from "../commom/MyButton"
-import Sub8Image from '../../image/roll-up-sleeves.png'
-import '../../css/btn.css'
-import '../../css/leftRifht.css'
-import '../../css/sub8.css'
-import LeftImage from '../../image/particles-left.png'
-import RightImage from '../../image/particles-right.png'
+import Sub8Image from '../../../image/roll-up-sleeves.png'
+import '../../../css/btn.css'
+import '../../../css/leftRifht.css'
+import '../../../css/sub8.css'
+import LeftImage from '../../../image/particles-left.png'
+import RightImage from '../../../image/particles-right.png'
 import { FootContent } from "../commom/myTypography";
 
 

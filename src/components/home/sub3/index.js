@@ -4,16 +4,16 @@ import InputIcon from '@mui/icons-material/Input';
 import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
 import ShortcutIcon from '@mui/icons-material/Shortcut';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
-import Sub1Image from '../../image/smart-3.png'
-import Encryption from '../../image/encryption.png'
+import Sub1Image from '../../../image/smart-3.png'
+import Encryption from '../../../image/encryption.png'
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import { Grid, Paper, Typography, Toolbar, Divider } from "@mui/material"
 import { CircleIcon } from '../head/circleIcon';
-import '../../css/img.css'
-import InputImage from '../../image/smart-3.png'
+import '../../../css/img.css'
+import InputImage from '../../../image/smart-3.png'
 import LogicIcon from './logic';
 import CalculatorIcon from './calculator';
-import Sub3BackImage from '../../image/smart.png'
+import Sub3BackImage from '../../../image/smart.png'
 import { useMediaQuery, useTheme } from '@mui/material';
 import { Sub1Content, SubTitle1, Sub2Content, SubTitle2, FootContent } from "../commom/myTypography";
 

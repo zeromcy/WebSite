@@ -1,17 +1,17 @@
 import { Container } from '@mui/system';
 import './App.css';
-import AppBar from './components/appBar';
-import Footer from './components/foot';
-import Head from './components/head';
-import SubOne from './components/sub1';
-import SubTwo from './components/sub2';
-import SubThree from './components/sub3';
-import SubFour from './components/sub4';
-import SubFive from './components/sub5';
-import SubSix from './components/sub6';
-import SubSeven from './components/sub7';
-import SubEight from './components/sub8';
-import SubNine from './components/sub9';
+import AppBar from './components/home/appBar';
+import Footer from './components/home/foot';
+import Head from './components/home/head';
+import SubOne from './components/home/sub1';
+import SubTwo from './components/home/sub2';
+import SubThree from './components/home/sub3';
+import SubFour from './components/home/sub4';
+import SubFive from './components/home/sub5';
+import SubSix from './components/home/sub6';
+import SubSeven from './components/home/sub7';
+import SubEight from './components/home/sub8';
+import SubNine from './components/home/sub9';
 import { createTheme, Grid, ThemeProvider, useMediaQuery } from '@mui/material';
 import LeftImage from './image/faces-left.png'
 import RightImage from './image/faces-right.png'

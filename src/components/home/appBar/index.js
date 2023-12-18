@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material"
-import '../../css/btn.css'
+import '../../../css/btn.css'
 import StyledButton from "../commom/MyButton"
-import LogoIcon from '../../image/logo_v2.png'
+import LogoIcon from '../../../image/logo_v2.png'
 
 
 export default function AppBar() {

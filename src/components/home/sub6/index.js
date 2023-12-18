@@ -1,18 +1,18 @@
 import MyLink from "../commom/MyLink"
 import { Grid, Typography } from "@mui/material"
-import '../../css/img.css'
-import NotionImage from '../../image/icon_NOTION.png'
-import GoogleSheetsImage from '../../image/icon_GOOGLE_SHEETS.png'
-import AirtableImage from '../../image/icon_AIRTABLE.png'
-import WebhooksImage from '../../image/icon_WEBHOOKS.png'
-import SlackImage from '../../image/icon_SLACK.png'
-import CodaImage from '../../image/icon_CODA.png'
-import GoogleAnalyticsImage from '../../image/icon_GOOGLE_ANALYTICS.png'
-import FaceImage from '../../image/icon_FACEBOOK_PIXEL.png'
-import ZapierImage from '../../image/icon_ZAPIER.png'
-import MakeImage from '../../image/icon_INTEGROMAT.png'
-import PipedreamImage from '../../image/icon_PIPEDREAM.png'
-import Sub6BackImage from '../../image/strategy.png'
+import '../../../css/img.css'
+import NotionImage from '../../../image/icon_NOTION.png'
+import GoogleSheetsImage from '../../../image/icon_GOOGLE_SHEETS.png'
+import AirtableImage from '../../../image/icon_AIRTABLE.png'
+import WebhooksImage from '../../../image/icon_WEBHOOKS.png'
+import SlackImage from '../../../image/icon_SLACK.png'
+import CodaImage from '../../../image/icon_CODA.png'
+import GoogleAnalyticsImage from '../../../image/icon_GOOGLE_ANALYTICS.png'
+import FaceImage from '../../../image/icon_FACEBOOK_PIXEL.png'
+import ZapierImage from '../../../image/icon_ZAPIER.png'
+import MakeImage from '../../../image/icon_INTEGROMAT.png'
+import PipedreamImage from '../../../image/icon_PIPEDREAM.png'
+import Sub6BackImage from '../../../image/strategy.png'
 import MoreIcon from "./more"
 import { Sub1Content, SubTitle1, FootContent } from "../commom/myTypography";
 import { useMediaQuery, useTheme } from '@mui/material';

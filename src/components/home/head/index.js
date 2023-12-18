@@ -1,15 +1,15 @@
 import StyledButton from "../commom/MyButton"
 import { Typography, Grid, Paper, Divider, Toolbar } from "@mui/material";
-import NotionImage from '../../image/notion.png'
-import BuyImage from '../../image/buy-me-a-coffee.png'
-import MakeImage from '../../image/make.png'
-import RakutenImage from '../../image/rakuten.png'
-import GlovoImage from '../../image/glovo.png'
+import NotionImage from '../../../image/notion.png'
+import BuyImage from '../../../image/buy-me-a-coffee.png'
+import MakeImage from '../../../image/make.png'
+import RakutenImage from '../../../image/rakuten.png'
+import GlovoImage from '../../../image/glovo.png'
 import FootIcon from "./footIcon";
-import headVideo from '../../video/head.mp4'
+import headVideo from '../../../video/head.mp4'
 import { CircleIcon } from "./circleIcon";
 import { useTheme, useMediaQuery } from '@mui/material'
-import FacePhoneImage from '../../image/faces-mobile.png'
+import FacePhoneImage from '../../../image/faces-mobile.png'
 
 
 export default function Head() {

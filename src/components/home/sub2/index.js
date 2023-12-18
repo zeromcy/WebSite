@@ -5,21 +5,21 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { Grid, Paper, Typography } from "@mui/material"
-import '../../css/img.css'
-import InputImage from '../../image/input-badges.png'
+import '../../../css/img.css'
+import InputImage from '../../../image/input-badges.png'
 import BuildIcon from './build';
-import Sub2BackImage from '../../image/click-plus.png'
+import Sub2BackImage from '../../../image/click-plus.png'
 import { useMediaQuery, useTheme } from '@mui/material';
 import MyCarousel from '../commom/carousel';
-import img1 from '../../image/inputs-1.png'
-import img2 from '../../image/inputs-2.png'
-import img3 from '../../image/inputs-3.png'
-import img4 from '../../image/inputs-4.png'
-import img5 from '../../image/inputs-5.png'
-import img6 from '../../image/inputs-6.png'
-import img7 from '../../image/inputs-7.png'
-import img8 from '../../image/inputs-8.png'
-import img9 from '../../image/inputs-9.png'
+import img1 from '../../../image/inputs-1.png'
+import img2 from '../../../image/inputs-2.png'
+import img3 from '../../../image/inputs-3.png'
+import img4 from '../../../image/inputs-4.png'
+import img5 from '../../../image/inputs-5.png'
+import img6 from '../../../image/inputs-6.png'
+import img7 from '../../../image/inputs-7.png'
+import img8 from '../../../image/inputs-8.png'
+import img9 from '../../../image/inputs-9.png'
 import { Sub1Content, Sub2Content, SubTitle1, SubTitle2 } from '../commom/myTypography';
 
 

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import '../../css/paper.css'
+import '../../../css/paper.css'
 import { Paper, Toolbar, Divider } from "@mui/material"
 import { CircleIcon } from '../head/circleIcon'
 

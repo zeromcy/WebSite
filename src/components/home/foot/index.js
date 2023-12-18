@@ -1,5 +1,5 @@
 import { Grid, Typography , Link, styled } from "@mui/material"
-import LogoImage from '../../image/logo_v2.png'
+import LogoImage from '../../../image/logo_v2.png'
 import Copyright from "./copyright"
 
 
@@ -113,7 +113,7 @@ export default function Footer() {
                         </StyledLink>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
+                        <StyledLink href="http://192.168.100.251:8080">
                             Blog
                         </StyledLink>
                     </StyledTypography>

@@ -1,4 +1,4 @@
-import '../../css/paper.css'
+import '../../../css/paper.css'
 import { CircleIcon } from "../head/circleIcon";
 import StyledButton from "../commom/MyButton"
 import BrandingWatermarkOutlinedIcon from '@mui/icons-material/BrandingWatermarkOutlined';
@@ -6,10 +6,10 @@ import AttachFileOutlinedIcon from '@mui/icons-material/AttachFileOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined';
 import { Grid, Paper, Toolbar, Divider } from "@mui/material"
-import '../../css/img.css'
-import InputImage from '../../image/smart-1.png'
-import Sub5BackImage from '../../image/paper-plane.png'
-import '../../css/btn.css'
+import '../../../css/img.css'
+import InputImage from '../../../image/smart-1.png'
+import Sub5BackImage from '../../../image/paper-plane.png'
+import '../../../css/btn.css'
 import { useMediaQuery, useTheme } from '@mui/material';
 import { Sub1Content, SubTitle1, Sub2Content, SubTitle2 } from "../commom/myTypography";
 

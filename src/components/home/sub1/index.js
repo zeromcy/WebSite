@@ -1,10 +1,10 @@
 import { Grid, Paper } from "@mui/material"
-import DiveImage from '../../image/dive-in.png'
-import '../../css/img.css'
+import DiveImage from '../../../image/dive-in.png'
+import '../../../css/img.css'
 import KeyboardCommandKeyIcon from '@mui/icons-material/KeyboardCommandKey';
 import LockIcon from '@mui/icons-material/Lock';
-import Encryption from '../../image/encryption.png'
-import Sub1Video from '../../video/just-type-card.mp4'
+import Encryption from '../../../image/encryption.png'
+import Sub1Video from '../../../video/just-type-card.mp4'
 import { Sub1Content, SubTitle1, Sub2Content, SubTitle2, FootContent } from "../commom/myTypography";
 
 export default function SubOne() {
