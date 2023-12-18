@@ -7,6 +7,7 @@ import './css/leftRifht.css'
 import { Home } from './components/home/home';
 import About from './components/aboutUs';
 import Cookie from './components/cookie';
+import Policy from './components/policy';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       <Grid container>
        {/* <Home /> */}
        {/* <About/> */}
-       <Cookie/>
+       {/* <Cookie/> */}
+       <Policy/>
       </Grid>
 
 
