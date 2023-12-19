@@ -1,5 +1,5 @@
 import { Grid, Typography } from "@mui/material"
-import { Sub2Content, SubTitle2 } from "../home/commom/myTypography"
+import { SubTitle2 } from "../home/commom/myTypography"
 
 
 export default function Three() {
