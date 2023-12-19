@@ -1,18 +1,23 @@
-import { Grid, Typography , Link, styled } from "@mui/material"
+import { Grid, Typography, Link, styled } from "@mui/material"
 import LogoImage from '../../../image/logo_v2.png'
 import Copyright from "./copyright"
 
 
-const StyledLink = styled(Link)(()=>({
-    '&':{
-        color:'inherit',
-        textDecoration:'none',
+const StyledLink = styled(Link)(() => ({
+    '&': {
+        color: 'inherit',
+        textDecoration: 'none',
     }
 }))
 
-const StyledTypography = styled(Typography)(()=>({
-    '&':{
-        width:'208px',
+function MyNav({to,name}){
+    return (
+        <StyledLink underline='hover' href={to} target="_blank">{name}</StyledLink>
+    )
+}
+const StyledTypography = styled(Typography)(() => ({
+    '&': {
+        width: '208px',
     }
 }))
 export default function Footer() {
@@ -38,39 +43,33 @@ export default function Footer() {
                         Product
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
+                        <MyNav name='Feature'>
+                        </MyNav>
+                    </StyledTypography>
+                    <StyledTypography variant='body2' color='text.secondary'>
+                        <MyNav name='Pricing'>
+                        </MyNav>
+                    </StyledTypography>
+                    <StyledTypography variant='body2' color='text.secondary'>
+                        <MyNav name="What's new">
+                        </MyNav>
+                    </StyledTypography>
+                    <StyledTypography variant='body2' color='text.secondary'>
+                        <MyNav name="Roadmap">
+                        </MyNav>
+                    </StyledTypography>
+                    <StyledTypography variant='body2' color='text.secondary'>
+                        <MyNav>
                             Feature
-                        </StyledLink>
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Pricing
-                        </StyledLink>
+                        <MyNav name="Feedback">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            What's new
-                        </StyledLink>
-                    </StyledTypography>
-                    <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Roadmap
-                        </StyledLink>
-                    </StyledTypography>
-                    <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Feature
-                        </StyledLink>
-                    </StyledTypography>
-                    <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Feedback
-                        </StyledLink>
-                    </StyledTypography>
-                    <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Templates
-                        </StyledLink>
+                        <MyNav name="Templates">
+                        </MyNav>
                     </StyledTypography>
                 </Grid>
 
@@ -79,50 +78,42 @@ export default function Footer() {
                         Help
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Get started
-                        </StyledLink>
+                        <MyNav name="Get started">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            How-to guides
-                        </StyledLink>
+                        <MyNav name="How-to guides">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Help center
-                        </StyledLink>
+                        <MyNav name="Help center">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Contact support
-                        </StyledLink>
+                        <MyNav name="Contact support">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Hire an export
-                        </StyledLink>
+                        <MyNav name="Hire an export">
+                        </MyNav>
                     </StyledTypography>
 
-                    <StyledTypography variant='body1' sx={{mt:5}} >
+                    <StyledTypography variant='body1' sx={{ mt: 5 }} >
                         Company
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            About us
-                        </StyledLink>
+                        <MyNav to='/about' name=' About us'></MyNav>
+
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink href="http://192.168.100.251:8080" target='_blank'>
-                            Blog
-                        </StyledLink>
+                        <MyNav to="http://192.168.100.251:8080" name='Blog'>
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Media kit
-                        </StyledLink>
+                        <MyNav name=" Media kit">
+                        </MyNav>
                     </StyledTypography>
-                   
+
                 </Grid>
 
                 <Grid item md={2} sm={4} xs={12}>
@@ -130,50 +121,43 @@ export default function Footer() {
                         Resources
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Jion the community
-                        </StyledLink>
+                        <MyNav name=" Join the community">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Fair use policy
-                        </StyledLink>
+                        <MyNav name="Fair use policy">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
+                        <MyNav>
                             GDPR
-                        </StyledLink>
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Terms & Privacy
-                        </StyledLink>
+                        <MyNav to='/tp' name="Terms & Privacy">
+                        </MyNav>
                     </StyledTypography>
 
-                    <StyledTypography variant='body1' sx={{mt:5}}>
+                    <StyledTypography variant='body1' sx={{ mt: 5 }}>
                         Compare
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Typeform alternative
-                        </StyledLink>
+                        <MyNav name="Typeform alternative">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Jotform alternative
-                        </StyledLink>
+                        <MyNav name="Jotform alternative">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Google Froms alternative
-                        </StyledLink>
+                        <MyNav name=" Google Froms alternative">
+                        </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <StyledLink>
-                            Best Free online form builders
-                        </StyledLink>
+                        <MyNav name="Best Free online form builders">
+                        </MyNav>
                     </StyledTypography>
-                    
+
                 </Grid>
             </Grid>
         </>

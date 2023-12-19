@@ -1,5 +1,5 @@
 import { Grid, Typography } from "@mui/material";
-import { MyDivider } from "./commom";
+import { MyDivider } from "./common";
 
 export default function Foot() {
     return (

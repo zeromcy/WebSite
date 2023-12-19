@@ -1,4 +1,4 @@
-import {  MySub } from "./commom"
+import {  MySub } from "./common"
 import OneImage from '../../image/HELP_copy.png'
 export default function Six() {
     return (

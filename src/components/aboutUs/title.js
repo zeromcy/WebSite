@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import { Sub2Content, SubTitle1 } from "../home/commom/myTypography";
-import { MyDivider } from "./commom";
+import { MyDivider } from "./common";
 
 export default function Title() {
     return (

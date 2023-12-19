@@ -1,4 +1,4 @@
-import { MySub } from "./commom"
+import { MySub } from "./common"
 import OneImage from '../../image/Illustrator.png'
 export default function Four() {
     return (
