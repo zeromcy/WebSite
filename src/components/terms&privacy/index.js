@@ -12,17 +12,17 @@ export default function TP(){
             <ul>
                 <li>
                     <Typography variant="h6">
-                        <Link href='policy' target="_blank">Privacy Policy</Link>
+                        <Link href='privacy' target="_blank">Privacy Policy</Link>
                     </Typography>
                 </li>
                 <li>
-                    <Typography variant="h6" target="_blank">
-                        <Link href='cookie'>Cookie Policy</Link>
+                    <Typography variant="h6">
+                        <Link href='cookie' target="_blank">Cookie Policy</Link>
                     </Typography>
                 </li>
                 <li>
-                    <Typography variant="h6" target="_blank">
-                        <Link href='terms'>Terms & Conditions</Link>
+                    <Typography variant="h6">
+                        <Link href='terms' target="_blank">Terms & Conditions</Link>
                     </Typography>
                 </li>
             </ul>

@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { MySpan, PolicyTypography } from "../policy/common";
+import { MySpan, PolicyTypography } from "../privacy/common";
 
 export default function Seven() {
 

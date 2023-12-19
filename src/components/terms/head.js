@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material"
-import { MyLink1 } from "../policy/common"
+import { MyLink1 } from "../privacy/common"
 
 
 export default function Head() {
