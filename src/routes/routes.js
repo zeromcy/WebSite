@@ -7,13 +7,15 @@ import TP from '../components/terms&privacy/index'
 import Cookie from '../components/cookie/index'
 import Privacy from '../components/privacy/index'
 import Terms from '../components/terms/index'
+import ErrorPage from "../components/home/error";
 
 //方式一
 const routes = [
     {
         id: 1,
         path: '/',
-        element: <Home />
+        element: <Home />,
+        errorElement:<ErrorPage/>
     },
     {
         id: 2,
