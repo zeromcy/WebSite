@@ -13,7 +13,7 @@ import LeftImage from '../../image/faces-left.png'
 import RightImage from '../../image/faces-right.png'
 import '../../css/leftRifht.css'
 
-export function Home() {
+export default function Home() {
     const theme = useTheme()
     const match = useMediaQuery(theme.breakpoints.up('lg'))
 
