@@ -6,9 +6,10 @@ import { createTheme, Grid, ThemeProvider } from '@mui/material';
 import './css/leftRifht.css'
 import {
   Route,
-  Routes
+  Routes,
+  RouterProvider
 } from 'react-router-dom';
-import routes from './routes/routes';
+import router,{routes} from './routes/routes';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
 
       {/* container */}
       <Grid container>
-        <RouteSeletor />
+        {/* <RouteSeletor /> */}
+        <RouterProvider router={router}/>
       </Grid>
 
 
