@@ -105,7 +105,7 @@ function FootContent({ content, image, name, occ }) {
                     <Grid container sx={{ my: 2 }}>
                         <Grid item md={6} sm={1} xs={1}>
                             <Grid container sx={{ justifyContent: 'flex-end' }}>
-                                <Avatar alt="Remy Sharp" src={image} sx={{ px: 2, pt: 1 }} />
+                                <Avatar alt="Remy Sharp" srcSet={image} sx={{ mx: 2, mt: 1 }}  />
                             </Grid>
                         </Grid>
                         <Grid item md={6} sm={11} xs={11}>
