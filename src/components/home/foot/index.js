@@ -1,7 +1,7 @@
 import { Grid, Typography, Link, styled } from "@mui/material"
 import LogoImage from '../../../image/logo_v2.png'
 import Copyright from "./copyright"
-
+import { Link as Nav } from "react-router-dom"
 
 const StyledLink = styled(Link)(() => ({
     '&': {
@@ -102,7 +102,7 @@ export default function Footer() {
                         Company
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <MyNav to='/about' name=' About us'></MyNav>
+                        <Nav to='/about' name=' About us'>about us</Nav>
 
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
@@ -134,8 +134,9 @@ export default function Footer() {
                         </MyNav>
                     </StyledTypography>
                     <StyledTypography variant='body2' color='text.secondary'>
-                        <MyNav to='/tp' name="Terms & Privacy">
-                        </MyNav>
+                        <Nav to='/tp' name="Terms & Privacy">
+                        Terms & Privacy
+                        </Nav>
                     </StyledTypography>
 
                     <StyledTypography variant='body1' sx={{ mt: 5 }}>

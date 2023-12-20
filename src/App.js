@@ -7,7 +7,8 @@ import './css/leftRifht.css'
 import {
   Route,
   Routes,
-  RouterProvider
+  RouterProvider,
+  useRoutes
 } from 'react-router-dom';
 import router,{routes} from './routes/routes';
 
@@ -23,7 +24,8 @@ function App() {
       {/* container */}
       <Grid container>
         {/* <RouteSeletor /> */}
-        <RouterProvider router={router}/>
+        {/* <RouterProvider router={router}/> */}
+        <R/>
       </Grid>
 
 
@@ -50,4 +52,8 @@ function RouteSeletor() {
   )
 }
 
+function R (){
+  const element = useRoutes(routes)
+  return element;
+}
 export default App;

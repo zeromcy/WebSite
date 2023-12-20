@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import { MyDivider } from "../aboutus/common";
 import { SubTitle1 } from "../home/commom/myTypography";
-import {Link} from "@mui/material";
+import { Link, Outlet } from "react-router-dom";
 export default function TP(){
     return (
         <Container>
@@ -12,20 +12,21 @@ export default function TP(){
             <ul>
                 <li>
                     <Typography variant="h6">
-                        <Link href='privacy' target="_blank">Privacy Policy</Link>
+                        <Link to='/tp/privacy' >Privacy Policy</Link>
                     </Typography>
                 </li>
                 <li>
                     <Typography variant="h6">
-                        <Link href='cookie' target="_blank">Cookie Policy</Link>
+                        <Link to='cookie' >Cookie Policy</Link>
                     </Typography>
                 </li>
                 <li>
                     <Typography variant="h6">
-                        <Link href='terms' target="_blank">Terms & Conditions</Link>
+                        <Link to='terms' >Terms & Conditions</Link>
                     </Typography>
                 </li>
             </ul>
+            <Outlet/>
         </Container>
     )
 }

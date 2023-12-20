@@ -22,26 +22,34 @@ const routes = [
         path: '/about',
         element: <About />
     },
-    {
-        id: 3,
-        path: '/cookie',
-        element: <Cookie />
-    },
-    {
-        id: 4,
-        path: '/privacy',
-        element: <Privacy />
-    },
+    
     {
         id: 5,
         path: '/tp',
-        element: <TP />
+        children:[
+            {
+                id: 3,
+                path: '',
+                element: <TP />,
+            },
+            {
+                id: 3,
+                path: 'cookie',
+                element: <Cookie />
+            },
+            {
+                id: 4,
+                path: 'privacy',
+                element: <Privacy />
+            },
+            {
+                id: 6,
+                path: 'terms',
+                element: <Terms />
+            },
+        ]
     },
-    {
-        id: 6,
-        path: '/terms',
-        element: <Terms />
-    },
+    
 ]
 
 // 方式二

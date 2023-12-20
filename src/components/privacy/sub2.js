@@ -4,7 +4,7 @@ export default function Two() {
 
     return (
         <>
-            <MySpan id={1} name={'2.What data do we collect'}>
+            <MySpan id={2} name={'2.What data do we collect'}>
             </MySpan>
             <PolicyTypography
                 content={'Information we collect from Creators (you hold a Tally account and you are using our service) or Website visitors (you are visiting our website).'}
