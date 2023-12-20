@@ -1,3 +1,4 @@
+import image from '../../../image/quote-jac.png'
 import MyLink from '../commom/MyLink';
 import HourglassEmptyOutlinedIcon from '@mui/icons-material/HourglassEmptyOutlined';
 import GrassOutlinedIcon from '@mui/icons-material/GrassOutlined';
@@ -213,6 +214,9 @@ export default function SubSeven() {
 
 
             <FootContent
+                name='Jac'
+                occ='Scaling global teams in Web3'
+                image={image}
                 content={'“Non stop new features and amazing UX makes Tally my go-to form builder. I love using it!”'}>
             </FootContent>
         </>

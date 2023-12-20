@@ -16,6 +16,7 @@ import CalculatorIcon from './calculator';
 import Sub3BackImage from '../../../image/smart.png'
 import { useMediaQuery, useTheme } from '@mui/material';
 import { Sub1Content, SubTitle1, Sub2Content, SubTitle2, FootContent } from "../commom/myTypography";
+import image from '../../../image/quote-nathan.png'
 
 export default function SubThree() {
     const theme = useTheme();
@@ -193,6 +194,9 @@ export default function SubThree() {
 
 
             <FootContent
+                name='Natan Castiel'
+                occ='Head of Growth, Gelt'
+                image={image}
                 content={'“Tally is doing to forms what Notion did to docs & sheets.”'}>
             </FootContent>
 

@@ -1,3 +1,4 @@
+import image from '../../../image/quote-shyam.png'
 import { Typography, Grid, useTheme, useMediaQuery } from "@mui/material";
 import StyledButton from "../commom/MyButton"
 import Sub8Image from '../../../image/roll-up-sleeves.png'
@@ -64,6 +65,9 @@ export default function SubEight() {
 
                    
                     <FootContent
+                    name='Shyam Verma'
+                    occ='Digital creator'
+                    image={image}
                     content={'“Absolutely adore Tally! A game-changer - incredibly powerful, yet ridiculously user-friendly. It enabled me to effortlessly gather inputs, add forms with ease, and even pre-fill them. And the icing on the cake - absolutely free to use!”'}>
                     </FootContent>
                 </Grid>

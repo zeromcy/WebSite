@@ -1,3 +1,4 @@
+import image from '../../../image/quote-steven.jpg'
 import MyLink from "../commom/MyLink"
 import { Grid, Typography } from "@mui/material"
 import '../../../css/img.css'
@@ -171,6 +172,9 @@ export default function SubSix() {
 
 
             <FootContent
+                name='Steven Tey'
+                occ='Building the future of the web, Vercel'
+                image={image}
                 content={'“Can attest that Tally  Typeform hands down”'}>
             </FootContent>
         </>

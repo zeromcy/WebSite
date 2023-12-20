@@ -6,6 +6,7 @@ import LockIcon from '@mui/icons-material/Lock';
 import Encryption from '../../../image/encryption.png'
 import Sub1Video from '../../../video/just-type-card.mp4'
 import { Sub1Content, SubTitle1, Sub2Content, SubTitle2, FootContent } from "../commom/myTypography";
+import image from '../../../image/quote-ben.jpg'
 
 export default function SubOne() {
     return (
@@ -80,6 +81,9 @@ export default function SubOne() {
             </Grid>
 
             <FootContent
+                image={image}
+                name='Ben Lang'
+                occ='Head of Community, Notion'
                 content={'“Loving Tally! Not sure why I only started using it now, so good!”'}>
             </FootContent>
         </>
